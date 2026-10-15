@@ -1,0 +1,683 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Work · Fearless Horizons</title><meta name="description" content="Case studies: proptech apps, hotel launches, LinkedIn lead engines, executive campaigns, trade shows and market entry."><link rel="canonical" href="https://fearlesshorizons.com/work.html"><meta name="theme-color" content="#0E1326"><link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png"><link rel="apple-touch-icon" href="apple-touch-icon.png"><meta property="og:type" content="website"><meta property="og:site_name" content="Fearless Horizons"><meta property="og:title" content="Work · Fearless Horizons"><meta property="og:description" content="Case studies: proptech apps, hotel launches, LinkedIn lead engines, executive campaigns, trade shows and market entry."><meta property="og:url" content="https://fearlesshorizons.com/work.html"><meta property="og:image" content="https://fearlesshorizons.com/og-image.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Work · Fearless Horizons"><meta name="twitter:description" content="Case studies: proptech apps, hotel launches, LinkedIn lead engines, executive campaigns, trade shows and market entry."><meta name="twitter:image" content="https://fearlesshorizons.com/og-image.jpg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap"><style>
+/* Layout: "Dawn" concept. A scroll-driven 3D journey toward a horizon (fog lifts, a city rises, light breaks, lines reach out) carries the story; the page beneath it is light, warm and editorial. */
+:root{
+  --bg:#F5F6FB; --bg-2:#FFFFFF; --bg-3:#EAEDF8; --ink:#0E1326;
+  --fg:#0E1326; --fg-2:#4A5068; --fg-3:#8A8FA3;
+  --line:rgba(14,19,38,.10);
+  --blue:#3B7BFF; --violet:#8A5CF6; --lilac:#C9B5FF;
+  --grad:linear-gradient(90deg,#3B7BFF 0%,#8A5CF6 100%);
+  --screen:#0E1430; --screen-2:#121A3C; --screen-3:#1C2550;
+  --display:"Playfair Display",Georgia,"Times New Roman",serif;
+  --body:"DM Sans","Helvetica Neue",Arial,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;text-align:left}
+h1,h2,h3{font-family:var(--display);font-weight:600;line-height:1.08;margin:0;text-wrap:balance;letter-spacing:-.01em}
+p{margin:0}
+.wrap{max-width:1200px;margin:0 auto;padding-inline:clamp(16px,4vw,48px)}
+.eyebrow{font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--fg-3)}
+.eyebrow.grad,.grad-text{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 22px;border-radius:999px;font-weight:600;font-size:15px;border:1px solid var(--line);transition:transform .15s ease,border-color .15s ease,background .15s}
+.btn:hover{transform:translateY(-1px);border-color:rgba(14,19,38,.35)}
+.btn.primary{background:var(--ink);border-color:transparent;color:#fff}
+.btn.primary:hover{background:#1C2550}
+.btn.ghost{background:rgba(255,255,255,.6);color:var(--fg)}
+.stage:not(.day) .btn.ghost{background:rgba(255,255,255,.08);color:#fff;border-color:rgba(255,255,255,.3)}
+.stage:not(.day) .btn.primary{background:#fff;color:var(--ink)}
+.btn:focus-visible,a:focus-visible,button:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+section{padding-block:clamp(64px,9vw,120px)}
+.sub{color:var(--fg-2);margin-top:16px;max-width:56ch}
+.h2{font-size:clamp(32px,4.4vw,56px)}
+
+/* nav */
+nav{position:fixed;left:0;right:0;top:env(safe-area-inset-top,0px);z-index:30;background:rgba(245,246,251,.72);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:66px}
+.brand{font-family:var(--display);font-weight:700;font-size:19px;letter-spacing:.02em;white-space:nowrap}
+.brand span{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+nav ul{display:flex;gap:24px;list-style:none;margin:0;padding:0;font-size:14px;font-weight:500;color:var(--fg-2)}
+nav ul a:hover{color:var(--fg)}
+@media(max-width:860px){nav ul{display:none}}
+
+/* ticker */
+.ticker{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding-block:18px 16px;overflow:hidden;background:var(--bg-2)}
+.ticker .tcap{text-align:center;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3);margin-bottom:12px}
+.ticker .track{display:flex;gap:40px;width:max-content;animation:scroll 40s linear infinite;font-family:var(--display);font-size:clamp(18px,2vw,24px);color:var(--fg-2);white-space:nowrap}
+.ticker .track i{font-style:normal;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+@keyframes scroll{to{transform:translateX(-50%)}}
+
+/* which one is you */
+.you .wrap{display:grid;grid-template-columns:minmax(0,6fr) minmax(0,6fr);gap:40px;align-items:start}
+@media(max-width:900px){.you .wrap{grid-template-columns:1fr}}
+.you h2{font-size:clamp(30px,4vw,50px)}
+.qlist{display:grid;gap:6px;margin-top:30px}
+.q{display:grid;grid-template-columns:28px 1fr;gap:14px;align-items:start;padding:16px 18px;border-radius:14px;border:1px solid transparent;font-family:var(--display);font-size:clamp(18px,1.6vw,22px);line-height:1.3;color:var(--fg-2);transition:background .2s,color .2s,border-color .2s}
+.q i{font-style:normal;font-family:var(--body);font-size:12px;letter-spacing:.1em;color:var(--fg-3);padding-top:6px}
+.q:hover{color:var(--fg);background:rgba(255,255,255,.7)}
+.q[aria-selected="true"]{color:var(--fg);background:var(--bg-2);border-color:var(--line);box-shadow:0 10px 30px rgba(14,19,38,.06)}
+.q[aria-selected="true"] i{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.answer{position:sticky;top:96px;padding:clamp(24px,3vw,40px);border-radius:24px;background:var(--ink);color:#F3F4FA;min-height:380px;overflow:hidden}
+.answer:before{content:"";position:absolute;inset:auto -30% -50% auto;width:70%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(138,92,246,.5),transparent 60%);pointer-events:none}
+.answer .eyebrow{position:relative}
+.answer h3{position:relative;font-size:clamp(26px,2.6vw,34px);margin-top:12px}
+.answer p{position:relative;color:#B9BED3;margin-top:16px;font-size:16.5px}
+.answer .mods{position:relative;display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.answer .mods span{font-size:13px;padding:7px 12px;border-radius:999px;border:1px solid rgba(255,255,255,.15);color:#B9BED3}
+.answer .mods span.p{background:var(--grad);border-color:transparent;color:#fff;font-weight:600}
+.answer .btn.primary{background:#fff;color:var(--ink)}
+.answer .a{animation:fade .45s both}
+@keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+
+/* modules: hover to preview */
+.modules{background:var(--bg-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.modules h2{font-size:clamp(30px,4vw,50px)}
+.mgrid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:40px;align-items:start;margin-top:40px}
+@media(max-width:900px){.mgrid{grid-template-columns:1fr}}
+.mlist{display:grid;gap:2px}
+.mi{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;padding:14px 16px;border-radius:12px;border-bottom:1px solid var(--line);font-size:17px;color:var(--fg-2);transition:background .2s,color .2s}
+.mi small{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-3)}
+.mi:hover,.mi[aria-selected="true"]{color:var(--fg);background:var(--bg)}
+.mi[aria-selected="true"] small{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.preview{position:sticky;top:96px;aspect-ratio:4/3;max-width:100%;border-radius:24px;border:1px solid var(--line);background:linear-gradient(160deg,#EEF1FB,#E6E4FA);overflow:hidden}
+.pv{position:absolute;inset:0;display:grid;place-items:center;padding:8%;opacity:0;transform:scale(.96);transition:opacity .35s,transform .35s;pointer-events:none}
+.pv.on{opacity:1;transform:none}
+.pv .cap{position:absolute;left:20px;bottom:16px;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--fg-2)}
+.mk{width:100%;max-width:100%;border-radius:14px;border:1px solid rgba(255,255,255,.12);background:var(--screen);color:#F3F4FA;overflow:hidden;box-shadow:0 30px 60px rgba(14,19,38,.25)}
+.mk-site .top{height:28px;border-bottom:1px solid rgba(255,255,255,.1);background:var(--screen-2);display:flex;gap:6px;align-items:center;padding-inline:12px}
+.mk-site .top i{width:8px;height:8px;border-radius:50%;background:#2A3362}
+.mk-site .body{padding:22px 24px 26px;display:grid;gap:12px}
+.mk-site .hl{font-family:var(--display);font-size:clamp(22px,2.6vw,34px);line-height:1.05;max-width:12ch}
+.mk-site .hl em{font-style:italic;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.mk-site .ln{height:7px;border-radius:4px;background:var(--screen-3)}
+.mk-site .cta{width:110px;height:28px;border-radius:999px;background:var(--grad);margin-top:4px}
+.mk-site .cols{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:8px}
+.mk-site .cols div{height:56px;border-radius:8px;background:var(--screen-2);border:1px solid rgba(255,255,255,.1)}
+.mk-li .banner{height:70px;background:linear-gradient(120deg,#1B2B6B,#3B2A7A)}
+.mk-li .av{width:64px;height:64px;border-radius:50%;background:var(--grad);border:4px solid var(--screen);margin:-36px 0 0 20px}
+.mk-li .b{padding:8px 20px 20px;display:grid;gap:8px}
+.mk-li .n{font-family:var(--display);font-size:20px}
+.mk-li .h{font-size:13px;color:#B9BED3;line-height:1.4}
+.mk-li .st{display:flex;gap:14px;font-size:11px;color:#7E86A6;letter-spacing:.06em}
+.mk-li .st b{color:#F3F4FA;font-size:14px;display:block}
+.mk-li .post{margin-top:6px;padding:10px;border-radius:8px;background:var(--screen-2);border:1px solid rgba(255,255,255,.1);font-size:12px;color:#B9BED3;line-height:1.4}
+.mk-deck{aspect-ratio:16/9;display:grid;align-content:space-between;padding:22px 26px;background:linear-gradient(135deg,#0E1430,#151C45)}
+.mk-deck small{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#7E86A6}
+.mk-deck .big{font-family:var(--display);font-size:clamp(44px,6vw,80px);line-height:1;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.mk-deck .t{font-family:var(--display);font-size:clamp(16px,1.7vw,22px);max-width:20ch}
+.mk-deck .ft{display:flex;justify-content:space-between;font-size:11px;color:#7E86A6}
+.mk-ev{aspect-ratio:4/5;max-width:60%;margin:0 auto;display:grid;align-content:space-between;padding:22px;background:radial-gradient(80% 60% at 70% 20%,rgba(138,92,246,.7),transparent 60%),#0E1430}
+.mk-ev .d{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#B9BED3}
+.mk-ev .t{font-family:var(--display);font-size:clamp(28px,3.6vw,46px);line-height:.98;letter-spacing:-.02em}
+.mk-ev .t em{font-style:italic;font-weight:500}
+.mk-ev .sp{display:flex;gap:8px;align-items:center}
+.mk-ev .sp span{height:16px;flex:1;border-radius:3px;background:var(--screen-3)}
+.mk-ev .sp small{font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#7E86A6;flex:none}
+.mk-brand{padding:26px;display:grid;gap:18px}
+.mk-brand .logo{font-family:var(--display);font-size:clamp(28px,3.4vw,44px);letter-spacing:.04em}
+.mk-brand .logo span{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.mk-brand .sw{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+.mk-brand .sw i{display:block;aspect-ratio:1;border-radius:8px}
+.mk-brand .ty{display:grid;gap:6px;font-size:13px;color:#B9BED3}
+.mk-brand .ty b{font-family:var(--display);font-size:22px;color:#F3F4FA;font-weight:600}
+.mk-out{padding:22px;display:grid;gap:10px}
+.mk-out .bub{max-width:82%;padding:10px 14px;border-radius:14px;font-size:13px;line-height:1.45;color:#B9BED3;background:var(--screen-2);border:1px solid rgba(255,255,255,.1)}
+.mk-out .bub.me{margin-left:auto;background:linear-gradient(135deg,rgba(59,123,255,.4),rgba(138,92,246,.4));color:#F3F4FA}
+.mk-out .bub b{display:block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#7E86A6;margin-bottom:4px}
+.mk-app{display:flex;gap:16px;align-items:flex-end;justify-content:center}
+.mk-app .ph{width:34%;aspect-ratio:9/18;border-radius:22px;background:var(--screen);border:1px solid rgba(255,255,255,.2);padding:12px 10px;display:grid;gap:8px;align-content:start;color:#F3F4FA;box-shadow:0 30px 60px rgba(14,19,38,.25)}
+.mk-app .ph:nth-child(2){width:40%;transform:translateY(-10px)}
+.mk-app .ph b{font-family:var(--display);font-size:13px}
+.mk-app .ph .card{border-radius:9px;padding:8px;background:var(--screen-2);border:1px solid rgba(255,255,255,.1);display:grid;gap:5px}
+.mk-app .ph .card span{height:6px;border-radius:3px;background:var(--screen-3);display:block}
+.mk-app .ph .card span.g{background:var(--grad);width:60%}
+.mk-app .ph .pill{height:26px;border-radius:999px;background:var(--grad)}
+.mk-map{padding:24px;display:grid;gap:12px}
+.mk-map .row{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;padding:10px 12px;border-radius:10px;background:var(--screen-2);border:1px solid rgba(255,255,255,.1);font-size:13px;color:#B9BED3}
+.mk-map .row b{color:#F3F4FA;font-weight:600;display:block}
+.mk-map .row em{font-style:normal;font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:999px;border:1px solid rgba(201,181,255,.7);color:#D9CCFF}
+
+/* markets */
+.markets .wrap{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:48px;align-items:start}
+@media(max-width:900px){.markets .wrap{grid-template-columns:1fr}}
+.markets h2{font-size:clamp(30px,3.8vw,48px);margin-top:14px}
+.pillars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:36px}
+.pillar{padding:26px 26px 22px;border:1px solid var(--line);border-radius:20px;background:var(--bg-2);min-width:0;display:flex;flex-direction:column}
+.pillar b{font-family:var(--display);font-size:30px;font-weight:600;line-height:1}
+.pillar em{display:block;margin-top:10px;font-style:italic;color:var(--fg-2);font-size:15.5px}
+.pillar ul{list-style:none;margin:18px 0 0;padding:0;display:grid;gap:8px}
+.pillar li{font-size:15px;padding-left:16px;position:relative;color:var(--fg)}
+.pillar li:before{content:"";position:absolute;left:0;top:.6em;width:6px;height:6px;border-radius:50%;background:var(--grad)}
+.pillar .more{margin-top:auto;padding-top:20px;font-size:14px;font-weight:600;color:var(--fg);text-decoration:none}
+.modules .h3{font-family:var(--display);font-size:clamp(22px,2.6vw,30px);font-weight:600;margin-top:10px}
+@media(max-width:860px){.pillars{grid-template-columns:1fr}}
+.ways{display:grid;gap:14px}
+.way{display:grid;grid-template-columns:120px 1fr;gap:18px;padding:20px 22px;border:1px solid var(--line);border-radius:16px;background:var(--bg-2);min-width:0}
+@media(max-width:560px){.way{grid-template-columns:1fr;gap:8px}}
+.way b{font-family:var(--display);font-size:22px;font-weight:600;line-height:1.15}
+.way span{font-size:15px;color:var(--fg-2)}
+.way span strong{color:var(--fg);font-weight:600}
+.flags{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
+.flags span{font-size:13px;padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:var(--bg-2);color:var(--fg-2)}
+.markets .note{margin-top:18px;font-size:13.5px;color:var(--fg-3)}
+
+/* numbers */
+.numbers{background:var(--ink);color:#F3F4FA}
+.numbers .ngrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
+@media(max-width:900px){.numbers .ngrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.num{border-top:1px solid rgba(255,255,255,.14);padding-top:22px;min-width:0}
+.num b{display:block;font-family:var(--display);font-size:clamp(44px,5.2vw,72px);font-weight:600;line-height:1;font-variant-numeric:tabular-nums;background:linear-gradient(90deg,#CFE0FF,#C9B5FF);-webkit-background-clip:text;background-clip:text;color:transparent}
+.num b span{font-size:.5em;vertical-align:.3em}
+.num p{margin-top:10px;color:#B9BED3;font-size:15px;max-width:26ch}
+.num small{display:block;margin-top:6px;color:#7E86A6;font-size:12.5px}
+
+/* work reel */
+.work{overflow:hidden}
+.reel{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;padding:40px clamp(16px,4vw,48px) 20px;scrollbar-width:none}
+.reel::-webkit-scrollbar{display:none}
+.case{flex:0 0 min(78vw,420px);scroll-snap-align:start;border-radius:22px;overflow:hidden;border:1px solid var(--line);background:var(--bg-2);display:flex;flex-direction:column;min-width:0;transition:transform .25s;box-shadow:0 20px 50px rgba(14,19,38,.06)}
+.case:hover{transform:translateY(-6px)}
+.case .cover{aspect-ratio:4/3;position:relative;display:flex;align-items:flex-end;padding:20px 22px;overflow:hidden;color:#fff}
+.case .cover b{font-family:var(--display);font-size:clamp(44px,5vw,64px);line-height:.95;letter-spacing:-.02em;position:relative}
+.case .cover .img{position:absolute;inset:0}
+.case .cover .img.a{background:radial-gradient(70% 60% at 30% 30%,rgba(59,123,255,.9),transparent 60%),#1B2B6B}
+.case .cover .img.b{background:radial-gradient(70% 60% at 70% 70%,rgba(138,92,246,.95),transparent 60%),#1B2B6B}
+.case .cover .img.c{background:conic-gradient(from 200deg at 60% 40%,#3B7BFF,#8A5CF6,#C9B5FF 70%,#1B2B6B)}
+.case .cover .ph{position:absolute;right:14px;top:12px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.55)}
+.case .body{padding:20px 22px 24px;display:flex;flex-direction:column;gap:10px}
+.tag{align-self:flex-start;font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:6px 10px;border-radius:999px;border:1px solid var(--line);color:var(--fg-2)}
+.case h3{font-size:21px}
+.case p{color:var(--fg-2);font-size:15px}
+.work .head{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap}
+.work .hint{font-size:13px;color:var(--fg-3);letter-spacing:.08em;text-transform:uppercase}
+
+/* founder */
+.founder{background:var(--bg-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.founder .wrap{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:48px;align-items:center}
+@media(max-width:900px){.founder .wrap{grid-template-columns:1fr}}
+.portrait{aspect-ratio:4/5;max-width:100%;border-radius:24px;position:relative;overflow:hidden;border:1px solid var(--line);background:radial-gradient(70% 50% at 50% 100%,rgba(138,92,246,.45),transparent 70%),linear-gradient(160deg,#EEF1FB,#D9DCF0)}
+.portrait span{position:absolute;left:18px;bottom:16px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3)}
+.founder h2{font-size:clamp(30px,3.8vw,48px);margin-top:14px}
+.founder p.big{font-size:clamp(18px,1.5vw,20px);color:var(--fg-2);margin-top:20px;max-width:52ch}
+.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 28px;margin-top:28px}
+@media(max-width:560px){.facts{grid-template-columns:1fr}}
+.facts div{border-left:2px solid;border-image:var(--grad) 1;padding-left:14px;font-size:15px;color:var(--fg-2)}
+.facts b{display:block;color:var(--fg);font-weight:600}
+.langs{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
+.langs span{font-size:13px;padding:7px 12px;border-radius:999px;border:1px solid var(--line);color:var(--fg-2)}
+.langs span b{color:var(--fg);font-weight:600}
+
+/* start */
+.method h2{font-size:clamp(30px,4vw,50px);margin-top:12px;max-width:20ch}
+.method .frames{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:34px}
+.frame{padding:24px;border:1px solid var(--line);border-radius:20px;background:var(--bg-2);min-width:0}
+.frame b{display:block;font-family:var(--display);font-size:24px;font-weight:600;line-height:1.15}
+.frame span{display:block;margin-top:10px;font-size:15px;color:var(--fg-2)}
+.method .sub a{color:var(--fg);font-weight:600}
+@media(max-width:860px){.method .frames{grid-template-columns:1fr}}
+.start .box{padding:clamp(28px,4vw,52px);border-radius:28px;border:1px solid var(--line);background:linear-gradient(135deg,#EEF1FB,#E6E4FA)}
+.start h2{font-size:clamp(28px,3.6vw,46px);margin-top:12px;max-width:22ch}
+.start .sub{max-width:60ch}
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:34px}
+@media(max-width:900px){.steps{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.steps{grid-template-columns:1fr}}
+.steps div{padding:18px 18px 16px;border-radius:16px;background:rgba(255,255,255,.7);border:1px solid var(--line);min-width:0}
+.steps b{display:block;font-family:var(--display);font-size:13px;letter-spacing:.1em;text-transform:uppercase;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.steps strong{display:block;margin-top:8px;font-size:17px;font-weight:600;line-height:1.3}
+.steps span{display:block;margin-top:8px;font-size:14.5px;color:var(--fg-2)}
+
+/* cta */
+.cta{position:relative;overflow:hidden;text-align:center;background:var(--ink);color:#F3F4FA}
+.cta:before{content:"";position:absolute;inset:0;background:radial-gradient(50% 70% at 50% 115%,rgba(138,92,246,.55),transparent 70%),radial-gradient(40% 50% at 10% 0%,rgba(59,123,255,.3),transparent 70%);pointer-events:none}
+.cta .wrap{position:relative}
+.cta h2{font-size:clamp(40px,7vw,96px);letter-spacing:-.02em}
+.cta h2 em{font-style:italic;font-weight:500;background:linear-gradient(90deg,#CFE0FF,#C9B5FF);-webkit-background-clip:text;background-clip:text;color:transparent}
+.cta p{color:#B9BED3;margin:20px auto 0;max-width:46ch}
+.cta .ctas{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:32px}
+.cta .btn.primary{background:#fff;color:var(--ink)}
+.cta .btn.ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.25)}
+.cta .mail{margin-top:22px;font-size:14px;color:#7E86A6}
+footer{padding-block:40px;font-size:14px;color:#7E86A6;background:var(--ink);border-top:1px solid rgba(255,255,255,.1)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:18px 40px;justify-content:space-between;align-items:flex-start}
+footer .brand{color:#fff}
+footer ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:18px}
+footer ul a:hover{color:#fff}
+
+@supports (animation-timeline: view()){
+  .rv{animation:rv linear both;animation-timeline:view();animation-range:entry 0% entry 35%}
+  @keyframes rv{from{opacity:.15;transform:translateY(28px)}to{opacity:1;transform:none}}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+
+/* restructure */
+.trusted .ticker{border-radius:0}
+.case .cover{text-decoration:none;color:#fff}
+.case .cover img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+.case .cover:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,10,28,.05),rgba(8,10,28,.75));}
+.case .cover b{position:relative;z-index:1;font-size:clamp(30px,3.4vw,42px);text-shadow:0 2px 20px rgba(0,0,0,.5)}
+.case:hover .cover img{transform:scale(1.06)}
+.founder .promise{margin-top:22px;padding:14px 18px;border-radius:14px;background:var(--bg-3);color:var(--fg-2);font-size:15px;border-left:3px solid var(--violet)}
+.quotes{padding-block:80px}
+.quotes .head{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;margin-bottom:30px}
+.qgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+@media(max-width:800px){.qgrid{grid-template-columns:1fr}}
+.q{margin:0;padding:26px 28px;border-radius:22px;background:var(--bg-2);border:1px solid var(--line);display:flex;flex-direction:column;gap:16px}
+.q blockquote{margin:0;font-family:var(--display);font-size:clamp(17px,1.5vw,20px);line-height:1.5;color:var(--fg)}
+.q blockquote:before{content:"“";color:var(--violet);font-size:1.6em;line-height:0;margin-right:4px}
+.q figcaption b{display:block;font-weight:600}.q figcaption span{color:var(--fg-3);font-size:14px}
+.why{padding-block:20px 90px}
+.wgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:30px}
+@media(max-width:900px){.wgrid{grid-template-columns:1fr}}
+.wcard{padding:28px;border-radius:22px;background:var(--ink);color:#F3F4FA;display:flex;flex-direction:column;gap:12px}
+.wcard b{font-family:var(--display);font-size:24px;line-height:1.15;font-weight:600}
+.wcard p{margin:0;color:rgba(255,255,255,.82)}
+.wcard span{margin-top:auto;padding-top:14px;border-top:1px solid rgba(255,255,255,.14);font-size:13px;color:#C9B5FF}
+.leave{list-style:none;padding:0;margin:22px 0 0;display:grid;gap:8px}
+.leave li{padding-left:28px;position:relative;color:var(--fg)}
+.leave li:before{content:"✓";position:absolute;left:0;top:0;color:var(--violet);font-weight:700}
+.fab{position:fixed;right:max(18px,env(safe-area-inset-right,0px));bottom:max(18px,env(safe-area-inset-bottom,0px));z-index:60;display:inline-flex;align-items:center;gap:10px;padding:14px 20px;border-radius:999px;background:var(--ink);color:#fff;text-decoration:none;font-weight:600;font-size:15px;box-shadow:0 18px 40px rgba(14,19,38,.35);transform:translateY(120%);opacity:0;transition:transform .5s cubic-bezier(.2,.8,.2,1),opacity .4s}
+.fab.on{transform:none;opacity:1}
+.fab span{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--grad)}
+@media(prefers-reduced-motion:reduce){.fab{transition:none}}
+
+/* nav: dropdown + mobile */
+nav ul{align-items:center}
+nav ul a.on{color:var(--fg);font-weight:600}
+nav ul li.m{display:none}
+nav .dd{position:relative}
+nav .dd>a{display:inline-flex;align-items:center;gap:6px}
+nav .dd .car{width:7px;height:7px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg) translateY(-2px);display:inline-block}
+nav .panel{position:absolute;left:-14px;top:100%;margin-top:14px;min-width:320px;background:var(--bg-2);border:1px solid var(--line);border-radius:18px;padding:10px;display:grid;gap:2px;box-shadow:0 24px 60px rgba(14,19,38,.18);opacity:0;visibility:hidden;transform:translateY(8px);transition:opacity .2s,transform .2s,visibility .2s}
+nav .panel:before{content:"";position:absolute;left:0;right:0;top:-14px;height:14px}
+nav .dd:hover .panel,nav .dd:focus-within .panel{opacity:1;visibility:visible;transform:none}
+nav .panel a{display:grid;gap:2px;padding:10px 12px;border-radius:12px;color:var(--fg)}
+nav .panel a:hover{background:var(--bg-3)}
+nav .panel a b{font-weight:600;font-size:14px}
+nav .panel a span{font-size:12.5px;color:var(--fg-3);line-height:1.35;font-weight:400}
+nav .menu{display:none;width:40px;height:40px;border-radius:10px;border:1px solid var(--line);background:transparent;flex-direction:column;align-items:center;justify-content:center;gap:5px;margin-left:8px;cursor:pointer}
+nav .menu i{display:block;width:18px;height:2px;background:var(--fg);transition:transform .2s}
+@media(max-width:860px){
+  nav .menu{display:flex}
+  nav ul{display:none}
+  nav>.wrap>.btn{display:none}
+  nav.open ul{display:flex;flex-direction:column;align-items:stretch;position:absolute;left:0;right:0;top:66px;background:var(--bg);border-bottom:1px solid var(--line);padding:14px clamp(16px,4vw,48px) 18px;gap:12px;font-size:16px;max-height:calc(100vh - 66px);overflow:auto}
+  nav.open ul li.m{display:block}
+  nav.open .menu i:first-child{transform:translateY(3.5px) rotate(45deg)}
+  nav.open .menu i:last-child{transform:translateY(-3.5px) rotate(-45deg)}
+  nav .panel{position:static;opacity:1;visibility:visible;transform:none;box-shadow:none;border:0;padding:6px 0 0 10px;min-width:0;margin:0;background:transparent}
+  nav .dd .car{display:none}
+}
+
+/* who / from founder / follow / brands */
+.who{padding-block:80px 30px}
+.whogrid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:40px;align-items:center}
+@media(max-width:860px){.whogrid{grid-template-columns:1fr}}
+.who .lede{color:var(--fg-2);font-size:17px;max-width:58ch;margin-top:14px}
+.logos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.logos span{display:grid;place-items:center;text-align:center;min-height:84px;padding:12px;border-radius:16px;border:1px solid var(--line);background:var(--bg-2);font-family:var(--display);font-size:clamp(15px,1.4vw,19px);font-weight:600;color:var(--fg)}
+@media(max-width:560px){.logos{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.brands{padding-block:10px 60px}
+.fromf{padding-block:70px}
+.fbox{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:40px;align-items:center;padding:clamp(28px,4vw,56px);border-radius:28px;background:var(--ink);color:#F3F4FA;overflow:hidden;position:relative}
+@media(max-width:860px){.fbox{grid-template-columns:1fr}.fvis{display:none}}
+.fbox h2{font-size:clamp(28px,3.4vw,44px);margin-top:12px;max-width:22ch;color:#fff}
+.fbox .sub{color:rgba(255,255,255,.8);max-width:60ch;margin-top:16px}
+.fstats{display:flex;gap:28px;flex-wrap:wrap;margin:24px 0 26px}
+.fstats b{display:block;font-family:var(--display);font-size:34px;line-height:1;background:linear-gradient(90deg,#CFE0FF,#C9B5FF);-webkit-background-clip:text;background-clip:text;color:transparent}
+.fstats span{font-size:13px;color:rgba(255,255,255,.6)}
+.fvis{position:relative;min-height:320px}
+.fvis img{position:absolute;border-radius:12px;box-shadow:0 26px 60px rgba(0,0,0,.5)}
+.fvis img:first-child{left:0;top:10%;width:78%;transform:rotate(-3deg)}
+.fvis img.doc{right:0;top:30%;width:38%;transform:rotate(6deg)}
+.follow{padding-block:20px 80px}
+.fol{display:flex;justify-content:space-between;align-items:center;gap:30px;flex-wrap:wrap;padding:clamp(24px,3vw,40px);border-radius:24px;border:1px solid var(--line);background:var(--bg-2)}
+.fol .lede{color:var(--fg-2);margin-top:10px;max-width:50ch}
+
+/* ---- inner pages ---- */
+body{padding-top:66px}
+.hero{padding-block:clamp(56px,8vw,96px) clamp(40px,6vw,72px);position:relative;overflow:hidden;background:var(--ink);color:#F3F4FA}
+.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(60% 80% at 85% 10%,rgba(59,123,255,.45),transparent 60%),radial-gradient(50% 70% at 10% 110%,rgba(138,92,246,.5),transparent 70%)}
+.hero .wrap{position:relative}
+.hero .eyebrow{color:#C9B5FF}
+.hero h1{font-size:clamp(44px,7vw,96px);letter-spacing:-.02em;line-height:.98;margin-top:14px;max-width:14ch}
+.hero h1 em{font-style:italic;font-weight:500;background:linear-gradient(90deg,#CFE0FF,#C9B5FF);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero .lead{font-size:clamp(18px,1.6vw,22px);color:#B9BED3;max-width:58ch;margin-top:22px}
+.hero .lead strong{color:#fff;font-weight:600}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.hero .btn.primary{background:#fff;color:var(--ink)}
+.hero .btn.ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.3)}
+.hero .crumbs{display:flex;gap:10px;font-size:13px;color:#7E86A6;margin-bottom:26px}
+.hero .crumbs a:hover{color:#fff}
+.pillar-nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:34px}
+.pillar-nav a{font-size:13px;padding:8px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.22);color:#C9CDE0}
+.pillar-nav a.on{background:#fff;color:var(--ink);border-color:#fff}
+h2.h2{font-size:clamp(30px,4vw,50px);margin-top:12px;max-width:22ch}
+.lede{font-size:clamp(17px,1.4vw,19px);color:var(--fg-2);max-width:60ch;margin-top:18px}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:36px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:36px}
+@media(max-width:900px){.grid2,.grid3{grid-template-columns:1fr}}
+.card{padding:26px;border:1px solid var(--line);border-radius:20px;background:var(--bg-2);min-width:0}
+.card b.t{display:block;font-family:var(--display);font-size:24px;font-weight:600;line-height:1.15}
+.card p{margin-top:10px;color:var(--fg-2);font-size:15.5px}
+.card ul{margin:14px 0 0;padding:0;list-style:none;display:grid;gap:7px}
+.card li{font-size:14.5px;color:var(--fg);padding-left:16px;position:relative}
+.card li:before{content:"";position:absolute;left:0;top:.6em;width:6px;height:6px;border-radius:50%;background:var(--grad)}
+.card .tag{display:inline-block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3);margin-bottom:10px}
+/* client sentence → fix */
+.fix{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:24px;padding:26px 0;border-top:1px solid var(--line)}
+.fix:last-child{border-bottom:1px solid var(--line)}
+@media(max-width:800px){.fix{grid-template-columns:1fr;gap:10px}}
+.fix q{font-family:var(--display);font-size:clamp(20px,2vw,26px);font-style:italic;line-height:1.3;quotes:"\201C" "\201D"}
+.fix p{color:var(--fg-2);font-size:15.5px}
+.fix p strong{color:var(--fg);font-weight:600;display:block;margin-bottom:4px}
+/* modules */
+.mod{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:24px;padding:30px 0;border-top:1px solid var(--line)}
+.mod:last-child{border-bottom:1px solid var(--line)}
+@media(max-width:800px){.mod{grid-template-columns:1fr;gap:12px}}
+.mod h3{font-size:clamp(22px,2.2vw,28px)}
+.mod .k{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3);margin-top:8px}
+.mod p{color:var(--fg-2);font-size:15.5px}
+.mod .get{margin:14px 0 0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 20px}
+@media(max-width:560px){.mod .get{grid-template-columns:1fr}}
+.mod .get li{font-size:14.5px;padding-left:16px;position:relative}
+.mod .get li:before{content:"";position:absolute;left:0;top:.6em;width:6px;height:6px;border-radius:50%;background:var(--grad)}
+/* case study block */
+.study{background:var(--bg-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.study .wrap{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:48px;align-items:center}
+@media(max-width:900px){.study .wrap{grid-template-columns:1fr}}
+.study .cover{aspect-ratio:4/3;border-radius:22px;position:relative;overflow:hidden;color:#fff;display:flex;align-items:flex-end;padding:22px}
+.study .cover b{font-family:var(--display);font-size:clamp(40px,4.4vw,60px);line-height:.95;letter-spacing:-.02em;position:relative}
+.study .cover .ph{position:absolute;right:14px;top:12px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.55)}
+.img.a{background:radial-gradient(70% 60% at 30% 30%,rgba(59,123,255,.9),transparent 60%),#1B2B6B}
+.img.b{background:radial-gradient(70% 60% at 70% 70%,rgba(138,92,246,.95),transparent 60%),#1B2B6B}
+.img.c{background:conic-gradient(from 200deg at 60% 40%,#3B7BFF,#8A5CF6,#C9B5FF 70%,#1B2B6B)}
+.study h2{font-size:clamp(28px,3.4vw,44px);margin-top:12px}
+.pwr{display:grid;gap:14px;margin-top:22px}
+.pwr div{display:grid;grid-template-columns:110px 1fr;gap:14px;font-size:15.5px;color:var(--fg-2)}
+.pwr b{color:var(--fg);font-weight:600;font-size:12px;letter-spacing:.12em;text-transform:uppercase;padding-top:4px}
+.stat{display:flex;gap:28px;flex-wrap:wrap;margin-top:24px}
+.stat div b{display:block;font-family:var(--display);font-size:40px;line-height:1;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.stat div span{font-size:13px;color:var(--fg-3)}
+/* work page */
+.cases{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin-top:40px}
+@media(max-width:900px){.cases{grid-template-columns:1fr}}
+.cases .case{flex:none}
+.cases .case .body h3{font-size:22px}
+.cases .pwr{margin-top:14px}
+.cases .pwr div{grid-template-columns:90px 1fr;font-size:14.5px}
+/* about */
+.about .wrap{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:48px;align-items:start}
+@media(max-width:900px){.about .wrap{grid-template-columns:1fr}}
+.portrait{aspect-ratio:4/5;border-radius:24px;background:linear-gradient(160deg,#1B2B6B,#3B7BFF 60%,#C9B5FF);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.6);font-size:12px;letter-spacing:.14em;text-transform:uppercase;position:sticky;top:90px}
+.about .story p{color:var(--fg-2);font-size:clamp(16px,1.3vw,18px);margin-top:18px;max-width:62ch}
+.about .story p:first-of-type{font-size:clamp(19px,1.7vw,23px);color:var(--fg)}
+.tl{margin-top:36px;display:grid;gap:0}
+.tl div{display:grid;grid-template-columns:120px 1fr;gap:18px;padding:16px 0;border-top:1px solid var(--line);font-size:15px;color:var(--fg-2)}
+.tl div b{color:var(--fg);font-family:var(--display);font-size:17px;font-weight:600}
+/* start page */
+.formats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin-top:36px}
+@media(max-width:1100px){.formats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:900px){.formats{grid-template-columns:1fr}}
+.format{padding:28px;border-radius:22px;border:1px solid var(--line);background:var(--bg-2);display:flex;flex-direction:column}
+.format .n{font-size:12px;letter-spacing:.14em;text-transform:uppercase;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:600}
+.format b.t{display:block;font-family:var(--display);font-size:26px;margin-top:10px}
+.format p{color:var(--fg-2);font-size:15.5px;margin-top:10px}
+.format ul{margin:14px 0 0;padding:0;list-style:none;display:grid;gap:7px}
+.format li{font-size:14.5px;padding-left:16px;position:relative}
+.format li:before{content:"";position:absolute;left:0;top:.6em;width:6px;height:6px;border-radius:50%;background:var(--grad)}
+.format .for{margin-top:auto;padding-top:18px;font-size:13px;color:var(--fg-3)}
+.faq{margin-top:36px;max-width:820px}
+.faq details{border-top:1px solid var(--line);padding:18px 0}
+.faq details:last-child{border-bottom:1px solid var(--line)}
+.faq summary{cursor:pointer;font-family:var(--display);font-size:clamp(19px,1.8vw,23px);font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:16px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";color:var(--fg-3);font-family:var(--body);font-weight:400}
+.faq details[open] summary:after{content:"–"}
+.faq details p{margin-top:12px;color:var(--fg-2);font-size:15.5px;max-width:64ch}
+.book{margin-top:40px;padding:clamp(24px,4vw,44px);border-radius:26px;background:linear-gradient(135deg,#EEF1FB,#E6E4FA);border:1px solid var(--line);display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:center}
+@media(max-width:800px){.book{grid-template-columns:1fr}}
+.book b{font-family:var(--display);font-size:clamp(22px,2.4vw,30px);font-weight:600;display:block}
+.book p{color:var(--fg-2);margin-top:8px;font-size:15.5px}
+.next{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:36px}
+@media(max-width:800px){.next{grid-template-columns:1fr}}
+.next a{display:block;padding:26px;border-radius:20px;border:1px solid var(--line);background:var(--bg-2);transition:transform .15s}
+.next a:hover{transform:translateY(-3px)}
+.next a small{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3)}
+.next a b{display:block;font-family:var(--display);font-size:26px;margin-top:8px}
+.next a span{display:block;color:var(--fg-2);font-size:15px;margin-top:8px}
+nav ul a.on{color:var(--fg)}
+nav ul li.m{display:none}
+@media(max-width:860px){nav .wrap{gap:10px}nav .btn{padding:10px 16px;font-size:14px;white-space:nowrap}
+  nav.open ul{display:flex;flex-direction:column;position:absolute;left:0;right:0;top:66px;background:var(--bg);border-bottom:1px solid var(--line);padding:14px clamp(16px,4vw,48px) 18px;gap:14px;font-size:16px}
+  nav.open ul li.m{display:block}nav.open .menu i:first-child{transform:translateY(3.5px) rotate(45deg)}nav.open .menu i:last-child{transform:translateY(-3.5px) rotate(-45deg)}}
+</style></head><body>
+<nav>
+  <div class="wrap">
+    <a class="brand" href="index.html">FEARLESS <span>HORIZONS</span></a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li class="dd"><a href="build.html">Services <i class="car"></i></a>
+        <div class="panel">
+          <a href="build.html"><b>Build</b><span>Brand, website, pitch and portfolio, LinkedIn profiles, proptech app or SaaS</span></a>
+          <a href="launch.html"><b>Launch</b><span>Go-to-market, LinkedIn authority, PR and visibility, event launches</span></a>
+          <a href="grow.html"><b>Grow</b><span>Target lists and outreach, partnerships, tenders, event business development</span></a>
+          <a href="grow.html#markets"><b>Market entry</b><span>Ten markets, local network, delivered in the language of the market</span></a>
+          <a href="start.html"><b>Fractional COO / CSO</b><span>Two to five hours a week inside your team, when a project is not enough</span></a>
+        </div>
+      </li>
+      <li><a href="work.html" class="on">Work</a></li>
+      <li><a href="about.html">About</a></li>
+      <li class="m"><a href="start.html">Book a call</a></li>
+    </ul>
+    <a class="btn primary" href="start.html" style="padding:10px 16px;font-size:14px">Book a call</a>
+    <button class="menu" id="menu" aria-label="Menu" aria-expanded="false"><i></i><i></i></button>
+  </div>
+</nav>
+<style>
+/* ---- Work page ---- */
+.w-filters{display:flex;gap:6px;flex-wrap:wrap;align-items:center;padding:6px;border:1px solid var(--line);border-radius:999px;background:var(--bg-2);width:max-content;max-width:100%;margin:26px 0 0}
+.w-chip{border:0;background:transparent;font:inherit;font-size:14px;font-weight:500;color:var(--fg-2);padding:9px 16px;border-radius:999px;cursor:pointer;display:inline-flex;gap:8px;align-items:center}
+.w-chip small{font-size:11px;color:var(--fg-3);font-variant-numeric:tabular-nums}
+.w-chip.on{background:var(--fg);color:var(--bg)} .w-chip.on small{color:var(--bg);opacity:.7}
+.w-chip:focus-visible{outline:2px solid var(--violet);outline-offset:2px}
+.w-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px;padding:10px 0 20px}
+.w-case{grid-column:span 1;display:flex;flex-direction:column;gap:14px;cursor:pointer;background:none;border:0;padding:0;text-align:left;font:inherit;color:inherit;min-width:0}
+.w-case.wide{grid-column:span 2}
+.w-case:focus-visible .w-cover{outline:3px solid var(--violet);outline-offset:3px}
+.w-cover{position:relative;border-radius:18px;overflow:hidden;aspect-ratio:4/3;max-width:100%;isolation:isolate;background:var(--cv,var(--bg-3));border:1px solid var(--line)}
+.w-case.wide .w-cover{aspect-ratio:21/9}
+.w-bg{position:absolute;inset:0;z-index:0}
+.w-bg img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.04);transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}
+.w-case:hover .w-bg img{transform:scale(1.09)}
+.w-bg i{position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,10,28,calc(var(--d,.55) + .15)) 0%,rgba(8,10,28,calc(var(--d,.55) - .25)) 45%,rgba(8,10,28,calc(var(--d,.55) + .2)) 100%)}
+.w-bg.w-grad{background:linear-gradient(160deg,var(--g1),var(--g2))}
+.w-cover.photo .w-num,.w-cover.photo .w-num span,.w-cover.photo .w-who,.w-cover.photo .w-who span{color:#fff}
+.w-cover.photo .w-num{text-shadow:0 2px 20px rgba(0,0,0,.5)}
+.w-cover.photo .w-pill{background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.3);backdrop-filter:blur(6px)}
+.w-num{position:absolute;left:22px;top:18px;z-index:2;font-family:var(--display);font-weight:600;font-size:clamp(34px,4.4vw,58px);line-height:1;color:var(--fg);letter-spacing:-.02em}
+.w-num small{font-size:.42em;font-family:var(--body);font-weight:500;letter-spacing:0;margin-left:6px;opacity:.9}
+.w-num span{display:block;font-family:var(--body);font-size:13px;font-weight:500;letter-spacing:.02em;color:var(--fg-2);margin-top:8px}
+.w-who{position:absolute;left:22px;right:22px;bottom:18px;z-index:2;display:flex;justify-content:space-between;align-items:end;gap:12px;color:var(--fg);font-size:13px}
+.w-who b{font-weight:600;display:block;font-size:14px}
+.w-who span{color:var(--fg-2)}
+.w-pill{font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;padding:6px 10px;border-radius:999px;background:var(--fg);color:var(--bg);white-space:nowrap}
+.w-meta{display:flex;flex-direction:column;gap:4px}
+.w-case h3{font-family:var(--display);font-size:clamp(20px,2.3vw,26px);line-height:1.2;margin:0;font-weight:600}
+.w-tags{font-size:13px;color:var(--fg-3);letter-spacing:.02em}
+.w-tags b{color:var(--fg-2);font-weight:500}
+.w-case.hidden{display:none}
+.p-build{--cv:linear-gradient(160deg,#EEF0F8,#E3E6F3)} .p-launch{--cv:linear-gradient(160deg,#F6EEF6,#EADFF0)} .p-grow{--cv:linear-gradient(160deg,#E9EDF9,#DCE2F5)}
+/* scene primitives */
+.w-sc{position:absolute;inset:0;pointer-events:none;z-index:1}
+.w-el{position:absolute;box-shadow:0 22px 44px rgba(10,12,30,.35),0 2px 6px rgba(10,12,30,.15);border-radius:10px;overflow:hidden;background:#fff;transform:rotate(var(--r,0deg));transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+.w-el img{display:block;width:100%;height:100%;object-fit:cover;object-position:top}
+.w-case:hover .w-el{transform:translateY(-6px) rotate(var(--r,0deg))}
+.w-phone{border-radius:9% / 4.3%;border:5px solid #171a30;background:#171a30;aspect-ratio:9/19;box-shadow:0 30px 60px rgba(5,3,20,.6),inset 0 0 0 2px #2a2e4a}
+.w-phone:after{content:"";position:absolute;left:50%;top:6px;width:34%;height:10px;border-radius:999px;background:#171a30;transform:translateX(-50%)}
+.w-phone img{border-radius:6% / 3%;object-position:top}
+.w-lap{background:transparent;box-shadow:none;overflow:visible;border-radius:0}
+.w-lap .w-scr{position:relative;border:6px solid #1b1e34;border-bottom-width:12px;border-radius:12px 12px 4px 4px;background:#000;aspect-ratio:16/9;overflow:hidden;box-shadow:0 26px 50px rgba(5,3,20,.45)}
+.w-lap .w-base{height:9px;margin:0 -4%;background:linear-gradient(180deg,#2a2e4a,#171a30);border-radius:0 0 10px 10px;box-shadow:0 14px 30px rgba(5,3,20,.4)}
+.w-lap .w-base:after{content:"";display:block;width:16%;height:3px;margin:0 auto;background:#3a3f60;border-radius:0 0 4px 4px}
+.w-slides{position:absolute;inset:0}
+.w-slides img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top;opacity:0;transition:opacity .9s ease}
+.w-slides img.on{opacity:1}
+.w-doc{aspect-ratio:1/1.414;border-radius:4px;background:#fff}
+.w-dt{padding:10px;font-size:9px;color:#0E1326;line-height:1.4}.w-dt b{display:block;font-size:11px}.w-dt span{display:block;color:#8A8FA3}
+.w-cp{position:absolute;background:#fff;color:#0E1326;border-radius:12px;padding:9px 13px;font-size:12px;font-weight:500;line-height:1.2;box-shadow:0 12px 28px rgba(10,12,30,.3);border:1px solid rgba(14,19,38,.08);max-width:44%}
+.w-cp b{display:block;font-family:var(--display);font-size:20px;font-weight:600;letter-spacing:-.01em;font-variant-numeric:tabular-nums}
+.w-cp.up b{color:#1A9B5B}.w-cp.dark{background:rgba(14,19,38,.9);color:#fff;border-color:rgba(255,255,255,.1)}
+.w-pcard{position:absolute;background:#fff;color:#0E1326;border-radius:12px;padding:0 0 12px;box-shadow:0 20px 40px rgba(5,3,20,.4);width:36%;overflow:hidden;font-size:11px;transform:rotate(var(--r,0deg))}
+.w-pcard i{display:block;height:34px;background:linear-gradient(90deg,#3B7BFF,#8A5CF6)}
+.w-pcard em{width:40px;height:40px;border-radius:50%;background:#0E1326;color:#fff;font-style:normal;font-weight:700;display:grid;place-items:center;margin:-20px 0 6px 12px;border:3px solid #fff;font-size:13px}
+.w-pcard b{display:block;padding:0 12px;font-size:13px}.w-pcard span{display:block;padding:2px 12px 0;color:#4A5068;line-height:1.3}
+.w-xls{position:absolute;background:#fff;border-radius:6px;overflow:hidden;box-shadow:0 20px 40px rgba(5,3,20,.4);font-size:9px;color:#333}
+.w-xls table{border-collapse:collapse;width:100%}.w-xls td{border:1px solid #d7dbe6;padding:3px 6px;white-space:nowrap}.w-xls tr:first-child td{background:#217346;color:#fff;font-weight:600}.w-xls td.n{text-align:right;font-variant-numeric:tabular-nums}
+.w-funnel{position:absolute;display:grid;gap:4px;width:44%}
+.w-funnel div{height:22px;border-radius:4px;background:#fff;color:#0E1326;font-size:10px;font-weight:600;display:flex;align-items:center;justify-content:space-between;padding:0 10px;margin:0 auto;box-shadow:0 8px 20px rgba(5,3,20,.3)}
+.w-ring{position:absolute;width:30%;aspect-ratio:1;border-radius:50%;background:conic-gradient(#C9B5FF 0 var(--v),rgba(255,255,255,.15) var(--v) 100%);display:grid;place-items:center;box-shadow:0 20px 40px rgba(5,3,20,.4)}
+.w-ring:before{content:"";position:absolute;inset:14%;border-radius:50%;background:#0E1430}
+.w-ring b{position:relative;color:#fff;font-family:var(--display);font-size:clamp(16px,2.4vw,30px)}
+.w-globe{position:absolute;inset:0;z-index:0;background:radial-gradient(circle at 50% 60%,#1C2A6B,#070B2A 70%)}
+.w-globe canvas{position:absolute;left:4%;top:0;width:66%;height:100%}
+.w-logo{position:absolute;width:13%;aspect-ratio:1;border-radius:14px;background:#fff;padding:6%;box-shadow:0 14px 30px rgba(5,3,20,.4)}
+.w-logo img{width:100%;height:100%;object-fit:contain;display:block}
+.w-cover.photo .w-cp{box-shadow:0 12px 28px rgba(0,0,0,.45)}
+/* numbers */
+.w-nums{background:var(--screen);color:#fff;padding:60px 0;margin:50px 0 0;border-radius:24px}
+.w-nums .wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:30px}
+.w-n b{font-family:var(--display);font-size:52px;line-height:1;display:block;font-weight:600;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.w-n b i{font-style:normal;font-size:.5em;color:var(--lilac)}
+.w-n p{margin:10px 0 2px;color:rgba(255,255,255,.85)}.w-n small{color:rgba(255,255,255,.5);font-size:13px}
+/* websites */
+.w-sites{padding:80px 0 20px}
+.w-sites .wrap{display:block}
+.w-show{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:40px;align-items:start;margin-top:34px}
+.w-show .w-lap{position:relative;transform:none}
+.w-show .w-lap .w-scr{aspect-ratio:1333/646}
+.w-list{display:grid;gap:6px}
+.w-list button{display:flex;justify-content:space-between;gap:12px;align-items:center;background:none;border:0;border-bottom:1px solid var(--line);padding:12px 4px;font:inherit;color:var(--fg-2);cursor:pointer;text-align:left}
+.w-list button b{font-weight:600;color:var(--fg)}
+.w-list button small{color:var(--fg-3);font-size:12px}
+.w-list button.on{color:var(--fg)} .w-list button.on b{color:var(--violet)}
+/* wall */
+.w-wall{padding:40px 0 20px}
+.w-names{display:flex;flex-wrap:wrap;gap:14px 34px;align-items:baseline;margin-top:22px}
+.w-names span{font-family:var(--display);font-size:clamp(22px,3vw,34px);font-weight:600;color:var(--fg)}
+.w-names span.dim{color:var(--fg-3);font-family:var(--body);font-size:15px;font-weight:400;flex-basis:100%}
+/* panel */
+.w-scrim{position:fixed;inset:0;background:rgba(7,10,24,.55);backdrop-filter:blur(3px);opacity:0;pointer-events:none;transition:opacity .35s;z-index:90}
+.w-scrim.on{opacity:1;pointer-events:auto}
+.w-panel{position:fixed;top:0;right:0;bottom:0;width:min(760px,100vw);background:var(--bg);color:var(--fg);z-index:100;transform:translateX(104%);transition:transform .55s cubic-bezier(.2,.8,.2,1);overflow-y:auto;box-shadow:-30px 0 80px rgba(0,0,0,.35)}
+.w-panel.on{transform:none}
+.w-ph{position:relative;min-height:260px;padding:28px 36px 30px;color:#fff;display:flex;flex-direction:column;justify-content:flex-end;isolation:isolate;background:var(--cv,var(--screen));overflow:hidden}
+.w-ph .w-bg{z-index:-1}.w-ph .w-bg i{background:linear-gradient(180deg,rgba(8,10,28,.3),rgba(8,10,28,.8))}
+.w-ph.plain{color:var(--fg)}
+.w-ph .w-pill{align-self:flex-start;margin-bottom:14px}
+.w-ph h2{font-family:var(--display);font-size:clamp(28px,4vw,42px);margin:0;line-height:1.1}
+.w-ph p{margin:10px 0 0;opacity:.9;font-size:15px}
+.w-close{position:absolute;top:18px;right:18px;width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.35);color:#fff;font-size:20px;cursor:pointer;display:grid;place-items:center;z-index:2}
+.w-ph.plain .w-close{background:var(--bg-2);border-color:var(--line);color:var(--fg)}
+.w-body{padding:30px 36px 60px;display:grid;gap:30px}
+.w-sec{display:grid;grid-template-columns:120px minmax(0,1fr);gap:18px;align-items:start}
+.w-sec .k{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--violet);font-weight:600;padding-top:6px}
+.w-sec .k b{display:block;font-family:var(--display);font-size:22px;color:var(--fg-3);font-weight:500;letter-spacing:0;text-transform:none;margin-bottom:2px}
+.w-sec p{margin:0;max-width:62ch;color:var(--fg-2)}
+.w-sec ul{margin:0;padding-left:18px;color:var(--fg-2);display:grid;gap:8px}
+.w-proof{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:14px;background:var(--bg-2);border:1px solid var(--line);border-radius:16px;padding:20px}
+.w-proof div b{font-family:var(--display);font-size:34px;display:block;line-height:1;font-weight:600;font-variant-numeric:tabular-nums}
+.w-proof div span{font-size:13px;color:var(--fg-3)}
+.w-quote{border-left:3px solid var(--violet);padding-left:18px;font-family:var(--display);font-style:italic;font-size:19px;line-height:1.45;color:var(--fg)}
+.w-quote small{display:block;font-family:var(--body);font-style:normal;font-size:13px;color:var(--fg-3);margin-top:10px}
+.w-next{display:flex;justify-content:space-between;align-items:center;gap:14px;border-top:1px solid var(--line);padding-top:22px;flex-wrap:wrap}
+.w-next button{background:none;border:0;font:inherit;color:var(--fg);cursor:pointer;font-weight:600;display:inline-flex;gap:8px;align-items:center;padding:0}
+.w-next small{color:var(--fg-3)}
+@media (max-width:760px){
+  .w-grid{grid-template-columns:1fr} .w-case.wide{grid-column:span 1} .w-case.wide .w-cover{aspect-ratio:4/3}
+  .w-cp{display:none} .w-pcard{width:46%} .w-num{font-size:34px}
+  .w-sec{grid-template-columns:1fr;gap:6px} .w-show{grid-template-columns:1fr}
+  .w-ph,.w-body{padding-left:20px;padding-right:20px}
+}
+@media (prefers-reduced-motion:reduce){ .w-el,.w-panel,.w-scrim,.w-bg img,.w-slides img{transition:none} }
+</style><section class="hero"><div class="wrap">
+  <div class="crumbs"><a href="index.html">Home</a><span>/</span><span>Work</span></div>
+  <p class="eyebrow">Work</p><h1>Problem, what we did, <em>result.</em></h1>
+  <p class="lead"><strong>Eighteen engagements across the three pillars, since 2018.</strong> Clients are named where they have agreed to it; the others are described by sector and city. Every one was done hands-on by the same person you will work with, as a project or, when a firm needs more, as a fractional COO or CSO inside the team.</p>
+  <div class="w-filters" role="tablist" aria-label="Filter by pillar"><button class="w-chip on" data-f="all">All <small>18</small></button><button class="w-chip" data-f="build">Build <small>7</small></button><button class="w-chip" data-f="launch">Launch <small>5</small></button><button class="w-chip" data-f="grow">Grow <small>6</small></button></div>
+</div></section>
+<section><div class="wrap"><div class="w-grid" id="wgrid"></div></div></section>
+<section class="w-nums"><div class="wrap">
+  <div class="w-n"><b>80<i>%</i></b><p>occupancy within three months of a London hotel launch</p><small>The Hoxton, Shoreditch</small></div>
+  <div class="w-n"><b>353</b><p>positive replies from 500 people contacted, in eight weeks</p><small>an alumni award campaign for a Gulf CEO</small></div>
+  <div class="w-n"><b>58</b><p>calls booked from 400 connection requests, all by hand</p><small>a Sydney engineering consultancy</small></div>
+  <div class="w-n"><b>24</b><p>countries screened for a practice's next market</p><small>eight profiled, one way in for each</small></div>
+</div></section>
+<section class="w-sites"><div class="wrap">
+  <p class="eyebrow">Websites we built</p><h2 class="h2">The one deliverable a prospect <em>can judge in a second.</em></h2>
+  <div class="w-show"><div class="w-el w-lap" id="wshow"><div class="w-scr"><div class="w-slides"><img src="assets/work/site-rrp.jpg" alt="An Australian proptech app" class="on"><img src="assets/work/site-thermenex.jpg" alt="Thermenex" class=""><img src="assets/work/site-bearings.jpg" alt="An Atlanta development company" class=""><img src="assets/work/site-sus2.jpg" alt="A Sydney engineering consultancy" class=""><img src="assets/work/site-serhant.jpg" alt="SERHANT" class=""><img src="assets/work/site-sot.jpg" alt="Superstars of Tomorrow" class=""><img src="assets/work/site-shetribing.jpg" alt="SheTribing" class=""><img src="assets/work/site-coachklara.jpg" alt="Coach Klara" class=""><img src="assets/work/site-lehype.jpg" alt="Le Hype, Cannes" class=""></div></div><div class="w-base"></div></div><div class="w-list"><button class="on"><span><b>An Australian proptech app</b><br><small>Brand, site, Knowledge Hub, SEO · 2026</small></span><small>rentrollpulse.com.au</small></button><button class=""><span><b>Thermenex</b><br><small>Website refresh, project pages, brochure · 2025</small></span><small>thermenex.com</small></button><button class=""><span><b>An Atlanta development company</b><br><small>Four pages, lender-facing track record · 2026</small></span><small>bearingsgroup.com</small></button><button class=""><span><b>A Sydney engineering consultancy</b><br><small>Brand from scratch, five pages, build · 2026</small></span><small>utilitiessolutions.com.au</small></button><button class=""><span><b>SERHANT</b><br><small>Go-to-market strategy for the online course</small></span><small>serhant.com</small></button><button class=""><span><b>Superstars of Tomorrow</b><br><small>Website copy, masterclass page, offer · 2025</small></span><small>superstarsoftomorrow.com</small></button><button class=""><span><b>SheTribing</b><br><small>Website rebrand and copy · 2025</small></span><small>shetribing.com</small></button><button class=""><span><b>Coach Klara</b><br><small>Website rebrand and copy · 2025</small></span><small>coachklara.com</small></button><button class=""><span><b>Le Hype, Cannes</b><br><small>Website rebrand and copy · 2025</small></span><small>lehype.fr</small></button></div></div>
+</div></section>
+<section class="w-wall"><div class="wrap">
+  <p class="eyebrow">Clients</p><h2 class="h2">Named where they agreed. <em>Described where they did not.</em></h2>
+  <div class="w-names"><span>UNStudio</span><span>The Hoxton</span><span>SERHANT</span><span>ODA New York</span><span>Ector Hoogstad</span><span>Thermenex</span><span>Superstars of Tomorrow</span><span class="dim">and engineering, proptech, architecture, hospitality, real-estate, bio-materials, medical-device and coaching clients in Australia, the US, Canada, the Gulf, France, Belgium and the Netherlands</span></div>
+</div></section>
+<div class="w-scrim" id="wscrim"></div><aside class="w-panel" id="wpanel" aria-hidden="true"></aside>
+
+<script>
+(function(){
+var CASES=[{"id": "td", "pillar": "launch", "wide": true, "num": "3,400+", "unit": "tenders", "numcap": "in one feed, 27 sources, 18 countries", "who": "TenderDesk", "where": "Europe · 2025 to 2026", "h": "An operating system for architecture tenders", "tags": ["Launch", "B2B SaaS for architecture and engineering", "Product strategy · brand · website · app · launch"], "problem": "European architecture and engineering practices find public tenders across a dozen portals (BOAMP, TED, JOUE, TenderNed, Bund.de, regional sites), assemble a design team by email, swap documents over WeTransfer, decode a foreign-language brief by hand and lay out the submission in Canva: twelve tabs, four spreadsheets and endless email chains for every competition, and a missed deadline when one of them slips.", "did": ["Product strategy and scope: six modules that follow the tender from discovery to deliverable. An aggregated RFP feed with smart alerts across 27 public sources in 18 EU countries; a team builder to find engineers, landscape architects, BIM specialists and consultants; a document hub; an AI brief analyser that translates the brief and extracts requirements and strategic directions; a competition studio that exports press-ready booklets; a pipeline with every stage from notification to award.", "Brand, naming and voice, and the marketing website: positioning (\"the operating system for architecture tenders\"), the five-step workflow story, the sources wall, the trial and waitlist flows.", "The application itself, invite-only for directors, founders and business-development leads, built and iterated in weekly cycles with a developer, from the data model to the sign-in."], "result": "A product that monitors 3,400+ active tenders across Europe in one feed and claims 42 hours saved per tender, in private beta with European practices and launching on a waitlist.", "proof": [["3,400+", "active RFPs across Europe"], ["27", "public sources, 18 countries"], ["42", "hours saved per tender"]]}, {"id": "rrp", "pillar": "launch", "wide": false, "num": "Excel", "unit": "→ app", "numcap": "in five months", "who": "An Australian proptech app", "where": "Brisbane · May 2026 to February 2027", "h": "From a spreadsheet to an app on the market", "tags": ["Launch", "Proptech", "Brand · product · go-to-market · website · SEO · launch"], "problem": "A Brisbane property-management consultant had spent years scoring the health of agencies' rent rolls by hand, one Excel workbook at a time, and had a developer turning the logic into an app. When we met there was no brand, no landing page, no socials and zero active users: a validated idea with no digital footprint at all. Australia has about 11,800 residential rent-roll businesses, 99% of them small, and the founder wanted the first 500 paying agencies without burning money on advertising to a market that had never heard of the product.", "did": ["A five-week foundation sprint first, because every growth tactic needs somewhere credible to send people: brand identity (logomark, navy-cream-signal-blue palette, typography, voice), a conversion-led landing page, and positioning tested against real principals rather than assumed.", "Validation before acquisition: recorded interviews with seven agency principals and a survey, which set the pricing, the ideal client (principals and PM department heads) and the words the product now uses.", "Product work with the developer: feature scoping, the health-score endpoint specification, a screen-by-screen UI review, the app-store listing, privacy policy and terms, so the Excel logic became something a principal runs in ten minutes.", "Go-to-market: a Queensland-first launch playbook towards 500 paying agencies, an 8 to 12 agency founder cohort, a map of 30+ partners and influencers, a partner and affiliate model with the state institute and CRM providers, a five-stage funnel, three launch scenarios and a KPI scorecard.", "Website and visibility: the Squarespace site with final home copy, a redesigned trial sign-up, welcome and trial email sequences, a Knowledge Hub of 29 articles, and an SEO and AI-visibility set-up (structured data, article schema, llms.txt) so Google and the AI assistants learn the product before launch. Showbag card and table signs for the launch event.", "A launch programme in three gated modules: a partner programme, LinkedIn and thought leadership for the founder, then a measured Google and ChatGPT advertising test, switched on only once there are users to show."], "result": "In five months a consultant's spreadsheet became a branded product with a live website, a 29-article hub, an email system and a staged plan to the first 500 agencies, with the first users to be won through partners and the founder's own visibility before a dollar goes to ads. The founder rated the work five stars: \"she took the time to really understand what I was building, asked the right questions, challenged me when needed and brought ideas to the table that genuinely improved the end result.\"", "proof": [["5", "months, idea to launch-ready"], ["29", "articles live before launch"], ["500", "agencies, the first target"]], "quote": ["She came into my business knowing very little about my industry or product, which is a pretty niche space, and got up to speed incredibly quickly. She didn't just take instructions and execute them, she took the time to really understand what I was building, asked the right questions, challenged me when needed and brought ideas to the table that genuinely improved the end result. Five stars without hesitation.", "Founder, Australian proptech company"]}, {"id": "sus", "pillar": "build", "num": "570K", "unit": "views", "numcap": "in 90 days, up 5,507%", "who": "A Sydney engineering consultancy", "where": "Sydney · October 2025 to February 2026", "h": "An engineer who wanted to go viral, and did", "tags": ["Build", "Civil and utilities engineering", "Profile · company page · viral content · network growth · brand · website"], "problem": "Twenty-two years of Tier-1 utilities and civil-infrastructure delivery (USD 1.2 billion of project wins, USD 7 million of client savings) and nobody outside his referral circle knew his name. The brief was explicit: go viral, grow the LinkedIn network and get as many views as possible, so that the next contractors, developers and utilities would already know the firm before the first conversation. The founder's profile read like a CV, the company page was empty, and the content so far had reached a few hundred people at best.", "did": ["An audit of the personal profile and company page, an inception workshop and an ideal-reader definition, then the founder's profile rewritten around quantified wins and the company page rebuilt, with a capability study, a four-page brochure and a business card to match.", "A content system built for reach and run by hand inside the founder's account, fully within LinkedIn's terms: three personal posts and one company post a week, written as stories from the field rather than service descriptions; one long-form article a month; a monthly newsletter; and the hooks, formats and posting times tested post by post against the analytics.", "A network-growth routine: twenty curated connection requests a day with a personal note, weekly comment and direct-message rounds in the conversations his buyers were already in, and a monthly KPI report with a lead log so every view could be traced to a person.", "Then the rebrand, once the audience existed: naming options, three logo concepts, a brand kit, five pages of customer-first SEO copy and a launch-ready Squarespace build."], "result": "The founder's profile went from a few hundred views a month to 569,681 impressions in 90 days, up 5,507% on the previous period. Two posts went viral, reaching 120,519 and 73,802 people; the company page gained 1,724 followers from zero, the personal network grew to 2,975 followers (up 40% in 90 days) and the newsletter reached 322 subscribers. The visibility turned into pipeline on its own: 400 connection requests became 58 booked calls, 22 of them from prospects who approached the firm after seeing the content. Both contracts were rated five stars.", "proof": [["569,681", "impressions in 90 days"], ["2", "viral posts, 120K and 74K views"], ["58", "calls booked on the back of it"]], "quote": ["Giulia is a talented content strategist who delivered exceptional results in terms of brand visibility and organic growth. Under her management, our LinkedIn profile saw a significant increase in followers, newsletter subscribers, and post impressions. She has a strong grasp of platform dynamics and content reach.", "Director, Sydney utilities-engineering consultancy"]}, {"id": "hec", "pillar": "launch", "num": "353", "unit": "yeses", "numcap": "HEC Mercure Award 2026 · eight weeks", "who": "A Gulf events-agency CEO", "where": "Saudi Arabia · Lebanon · France · May to September 2026", "h": "A campaign for the HEC Mercure Award 2026", "tags": ["Launch", "Executive campaign · HEC Mercure Award 2026", "Narrative · profile · content FR/EN · outreach · press · interview"], "problem": "The founder of a Saudi professional conference organiser was nominated for the HEC Mercure Award 2026, the HEC Alumni prize for the Middle East, decided by roughly 2,000 alumni votes in eight weeks, half of them French-speaking. He had no list, no campaign, a profile that did not tell his story, and the people to reach were busy HEC alumni in finance, consulting, law and corporate leadership across seven countries, each deciding personally whether to vote.", "did": ["Assessed the five award criteria and built the candidate narrative around three signature stories, from a positioning brief and a branding questionnaire; rewrote the LinkedIn profile and the executive profile for the jury.", "Produced 24+ posts in French and English, a six-post campaign asset kit, two newsletter issues, a five-episode podcast plan, a founder video and LinkedIn Lives, all sequenced to the voting calendar.", "Built a segmented alumni list of 250 to 500 contacts and ran it through Lemlist, one-to-one, in the founder's voice; recruited 12 to 20 senior endorsers; activated HEC alumni chapters in seven countries; built a media list and placed regional press and podcast appearances.", "Rehearsed the jury interview question by question, in two parts: the dream, and what he would pass on."], "result": "Of 500 alumni contacted one-to-one, 353 replied positively and 247 endorsed him publicly; his network grew by more than 1,500 connections over the campaign. With the right list and a message that respects the reader, roughly one in two busy professionals said yes to a vote that was not for them.", "proof": [["353", "positive replies"], ["247", "public endorsements"], ["1,500+", "new connections"]]}, {"id": "uns", "pillar": "grow", "num": "1", "unit": "bid won", "numcap": "in six months, two developers signed", "who": "UNStudio", "where": "Amsterdam → Paris · Q4 2019 to 2020", "h": "A market-entry strategy for France", "tags": ["Grow", "Architecture", "Market analysis · messaging · pitch · portfolio · PR · events · partnerships"], "problem": "One of the world's most acclaimed architecture practices had made France a strategic priority and was already spending on it: events, introductions, proposals. But three internal teams (French-speaking project leaders, business development, PR and marketing) each ran their own version of the strategy; every initiative passed through too many hands; the firm led with its AI sister company, which opened doors in Amsterdam and closed them in Paris; and it was showing its most sculptural work to a market with the strictest urban-coherence rules in Europe. A lot of activity, no compounding momentum.", "did": ["A full-day strategy workshop: the first time project leaders, business development and communications sat in one room with one agenda. It aligned the vocabulary and defined what a win in France would look like.", "Market analysis of where the portfolio, the relationships and the positioning gave the strongest near-term opportunity, between a public sector run on competitions and a private sector run by developers.", "New messaging and pitch for France: AI moved from the foreground to the background, the story rebuilt around contextual sensitivity, precision, regulatory fluency and collaboration with local stakeholders. The portfolio re-selected for a market that rewards context rather than spectacle.", "A PR strategy to build familiarity in French architecture and real-estate media before the first pitch, an events map of the smaller rooms where decision-makers actually are, and a local-partnership network of French engineers, consultants and architects with early visibility on commissions."], "result": "Within six months the practice had working relationships with two major French real-estate developers and had won a bid for a high-profile commercial project. Then Covid froze international investment and the programme was paused; the strategy is the one every market entry since has followed.", "proof": [["6", "workstreams"], ["2", "developer relationships"], ["1", "bid won in six months"]]}, {"id": "hox", "pillar": "build", "num": "80", "unit": "%", "numcap": "occupancy in three months", "who": "The Hoxton", "where": "Shoreditch, London", "h": "A hotel the neighbourhood adopted, from empty building to opening night", "tags": ["Build", "Hospitality", "Site selection · redesign · programme · partners · interiors · launch"], "problem": "A Dutch hotel concept built on gezelligheid, an open lobby and local life on the ground floor, had to work in a city whose idea of luxury is privacy and exclusivity. Get it wrong and the hotel alienates both audiences at once: tourists avoid it as too local, locals avoid it as a hotel. We were there from the first decision to the last: which building, what it would become, who would be in it, what it would look like and how it would open.", "did": ["The building: an abandoned property in Shoreditch rather than a plot in Mayfair. A neighbourhood in transition, with a community proud and protective of where it lived, where the premium feeling would come from cultural credibility rather than velvet rope. Location chosen as a cultural signal, not a postcode.", "The redesign and the programme: the building reworked around an open ground floor and a precise guest, the grown-up creative with money to spend, cultural influence and an allergy to being marketed to. Rooms, lobby and ground floor planned so that the hotel could feel discovered rather than sold.", "The partners: the ground floor treated as community infrastructure rather than amenity. A barbershop, a chicken shop and a bar that locals would actually use, each operator chosen so that non-guests added energy instead of friction.", "The interior and the launch: interior design briefed and directed to the same guest, then an opening run as a campaign rather than a date, with partnerships, press and local presence sequenced so that the hotel was full of locals before the first tourist arrived."], "result": "80% occupancy within three months of opening, the strongest UK hotel launch of its year. The ground-floor businesses became local institutions, Shoreditch moved from upcoming to prime, and the playbook, from building choice to launch, was reused city by city as the brand expanded across Europe and the United States.", "proof": [["80%", "occupancy"], ["3", "months"], ["1", "playbook, reused worldwide"]]}, {"id": "ser", "pillar": "build", "num": "+50%", "unit": "enrolments", "numcap": "in the first three months", "who": "SERHANT", "where": "New York · online course", "h": "Selling a course to the most followed brand in real estate", "tags": ["Build", "Real-estate education", "Go-to-market · positioning · launch sequence · content"], "problem": "SERHANT, the real-estate brokerage and media company with the largest following in the industry, had built an online course and wanted to maximise enrolments. Awareness of the course was low and engagement with it lower: an audience of millions that followed the brand for its listings and its founder, not for its education arm, and no go-to-market plan that turned that audience into students.", "did": ["A go-to-market strategy for the course: who it was for, what it promised them, and why they should buy it from this brand rather than from the hundreds of sales-training programmes already online.", "The launch sequence: positioning and messaging, the content and company-page plan, the offer architecture and the campaign calendar that took the course from announcement to enrolment.", "Content and page work on LinkedIn so that the brand's professional audience met the course where it already spent its time."], "result": "The course saw a 50% increase in enrolment within the first three months, and feedback highlighted increased satisfaction with the course content and delivery.", "proof": [["+50%", "enrolments in three months"], ["1", "go-to-market strategy"], ["72K", "page followers reached"]]}, {"id": "hout", "pillar": "grow", "num": "24", "unit": "countries", "numcap": "screened, eight profiled", "who": "A Toronto architecture practice", "where": "Toronto · September 2026", "h": "Where next for an international practice", "tags": ["Grow", "Architecture", "Market screening · public-funding map · entry recommendation"], "problem": "A Toronto practice with Gulf roots, Dutch training and an Arabic-speaking principal wanted to build a body of work in the countries the big brands have not yet crowded, rather than join the queue in Dubai. Albania, Portugal, Poland, Vietnam and Syria were all on the table, a live project in Bangladesh already made the firm international in fact, and there was no method for choosing between them or for knowing where the public money would be.", "did": ["Screened 24 countries against six lenses: demand, public money, access for a foreign practice, competition, language and network, and risk.", "Profiled the eight markets that survived, including the one where the firm was already working, and explained why the other sixteen were parked for now.", "Mapped where European public money is creating building programmes over the next five years, with sources and dates.", "Recommended one way in per market: who to approach, which local partner type, which project typology to lead with. One market came with a working network of our own."], "result": "A sourced, dated document the principal can take to his partners and his bank: a shortlist instead of a wish list, and a first move for each market.", "proof": [["24", "countries screened"], ["8", "profiled"], ["6", "lenses"]]}, {"id": "dac", "pillar": "grow", "num": "150", "unit": "partners", "numcap": "in a BD platform built for the studio", "who": "A Los Angeles architecture studio", "where": "Los Angeles · May to August 2026", "h": "From \"begging for work\" to being sought out", "tags": ["Grow", "Architecture", "Vision · vocabulary · BD platform · marketing · PR · pipeline"], "problem": "Two partners with an iconic portfolio (a Universal CityWalk, an arena, Saudi resorts, built while at a world-famous practice) had a studio with a thin built record of its own. Business development felt like groveling, and the very work that should have sold them read to clients as expensive and impractical, so they had been hiding it. Their targets were luxury hospitality, mixed-use and sports and entertainment, markets where a firm is chosen on prior acquaintance.", "did": ["A discovery session, then a reframe: stop selling yourselves as affordable and available; become the practice that is sought out. Three vision options and a signature vocabulary of their own, built the way the reference practices built theirs.", "Vision, tone of voice, business development, marketing and PR integrated in one strategy, then a 90-day roadmap and a populated planning board.", "A prospecting workbook of about 38 live opportunities with decision-makers, verified emails and first-touch hooks; a Project Evidence Matrix of 83 projects extracted from a 112-page master portfolio and tagged by sector, status, geography and pitch-usability.", "Partner-type and client-type win-win cards, LinkedIn profiles rewritten, a manual, personalised outreach cadence, and a pitch deck to a leading European practice as the first partnership test.", "A business-development platform built for the studio: 32 projects, 96 clients, 150 target partners organised by category (operators, contractors, engineering consultants, local architecture firms, project managers, branding), 246 contacts with status and tier, an AI pitch builder that turns a selection of projects into a deck-ready pitch in six steps, and the strategy and studio profile kept in the same place."], "result": "A studio that can say what it is in one sentence, show the right project for any pitch, and work a pipeline from its own platform rather than wait for referrals. The outreach moved to a pipeline-maintenance retainer.", "proof": [["150", "target partners, tiered"], ["83", "projects catalogued"], ["1", "BD platform, AI pitch builder"]]}, {"id": "oda", "pillar": "grow", "num": "3", "unit": "days", "numcap": "one fair, represented in person", "who": "ODA New York", "where": "New York → Cannes", "h": "Preparing a New York practice for Europe's real-estate stage", "tags": ["Grow", "Architecture", "Event preparation · target list · pitch · representation"], "problem": "A New York practice known for unboxing the standard residential tower wanted to be seen by European developers and investors, at the fair where the continent's real-estate deals are made, without flying the whole partnership across the Atlantic for three days of conversations that might not happen.", "did": ["Prepared the fair: a target list of the developers, investors and operators worth meeting, the meetings requested and scheduled in advance, and a pitch and portfolio selection adapted to a European audience.", "Represented the practice in person: the meetings taken on its behalf, the stand and networking events worked, and a report of every conversation with the follow-up for each.", "Handed over a warm list and a follow-up sequence so that the partners picked up the conversations as if they had been in the room."], "result": "Three days of European conversations for a New York practice that did not have to be there, with a named follow-up list in hand on the flight home.", "proof": [["3", "days on the floor"], ["1", "fair, represented in person"], ["1", "follow-up list, every conversation"]]}, {"id": "dhi", "pillar": "grow", "num": "28", "unit": "decision-makers", "numcap": "21 target exhibitors, two languages", "who": "An international architecture practice", "where": "Amsterdam · Cannes · 2025 to June 2026", "h": "Three days, one fair, a full meeting plan", "tags": ["Grow", "Architecture and development", "Trade-fair targeting · outreach EN/NL · follow-up playbook"], "problem": "An architecture and development consultancy with more than two million square metres designed across fourteen countries was exhibiting at the Netherlands' largest real-estate fair with a stand, three days, and no plan for who to meet. The same founder had come back from the Cannes retail-property fair with a stack of connections and nothing said to them yet.", "did": ["A prioritised target workbook of 21 exhibitor companies: booth, sector, fit, who to approach and why.", "Twenty-eight named decision-makers with personalised connection requests and direct messages in English and Dutch, written in the founder's voice.", "A follow-up playbook with met and missed email templates and tips for the fair's matchmaking app.", "For the Cannes contacts: a message set for every situation, from a connection accepted on LinkedIn to a referral passed on at the stand, including a CGI-services snapshot with indicative fees."], "result": "A complete meeting plan before the doors opened, and a follow-up sequence that turned fair conversations into calls rather than business cards in a drawer.", "proof": [["21", "target exhibitors"], ["28", "decision-makers"], ["2", "languages"]]}, {"id": "thx", "pillar": "build", "num": "9", "unit": "project pages", "numcap": "plus brochure and pitch", "who": "Thermenex", "where": "Canada · November 2025, ongoing", "h": "A technology that needed a plainer story", "tags": ["Build", "Building energy technology", "Website · opt-in · project pages · brochure · pitch"], "problem": "A patented Thermal Gradient Header that reuses the thermal energy already in a building to deliver heating and cooling with fewer components, lower costs and less carbon, explained in engineering language to buyers who are not engineers: building owners worried that electrification would drive up their energy bills. The website had several competing calls to action and no way to show the projects.", "did": ["A website refresh on Kajabi: the homepage rewritten around the owner's question (lower carbon without higher bills), one call to action kept on every page, the opt-in form rebuilt for conversion.", "An album-style projects landing page and nine individual project pages, reusing the existing text and images so that the proof is one click away.", "A twelve-page simplified brochure and a pitch that tell the same story the site does."], "result": "One story, told the same way on the site, in the brochure and in the room; the website work continues as an ongoing engagement.", "proof": [["9", "project pages"], ["1", "call to action"], ["12", "page brochure"]]}, {"id": "brg", "pillar": "launch", "num": "2", "unit": "weeks", "numcap": "to a financing-ready narrative", "who": "An Atlanta development company", "where": "Atlanta · August to September 2026", "h": "A company narrative in two weeks", "tags": ["Launch", "Commercial real estate", "Positioning · bio · LinkedIn · website · track record"], "problem": "After more than three decades selecting, negotiating and executing over 2,500 retail and restaurant locations for national brands, more than a billion dollars of transactions across 28 states, an executive was launching his own development and acquisitions company. He needed a bio, a LinkedIn presence and a company narrative strong enough for a bank-financing file within two weeks, and everything in hand before his October conference season.", "did": ["A positioning workshop, then the professional bio and CV and the LinkedIn profile rewritten so that a lender reads the whole track record in one sitting.", "The quick wins first: email signature and business cards, so the new brand started working immediately.", "The company website rebuilt on Squarespace in four pages: new copy on the positioning, a refreshed tagline and numbers, the work with grand-opening photos, client-logo bios, a flex-space explainer and the team.", "A personal track-record page for lenders and partners, built from his deal spreadsheet, awards and photos; the company page on LinkedIn, and his story adapted for five communities and directories so that every place someone finds him says the same thing."], "result": "A narrative a lender reads in one sitting, delivered on the deadline; a scope that a US freelance team typically prices at eight to fifteen thousand dollars across three or four people, done by one. Both pieces of work were rated five stars.", "proof": [["2", "weeks"], ["4", "pages plus a lender page"], ["$1B+", "of track record, made legible"]], "quote": ["Enjoyed working with Giulia. Understood the needs and challenges I was facing. Easy to talk to, clear communicator. Attention to detail and solid work. Highly recommend.", "CEO and founder, commercial real-estate development company"]}, {"id": "ico", "pillar": "launch", "num": "3", "unit": "markets", "numcap": "France, Belgium, Netherlands", "who": "ICONAT", "where": "Paris · 2025", "h": "A strategy for materials that save trees", "tags": ["Launch", "Bio-based materials", "Business strategy · market analysis · marketing · homepage"], "problem": "A French company turning agricultural and urban co-products (nutshells, fruit skins, leaves) into a firewood alternative, mouldable materials, food ingredients, feed, biomass and, later, construction panels: six product lines, six different buyers, a mission to prove that materials can serve human needs without cutting down a tree, and no commercial engine to carry any of it.", "did": ["A revised business strategy: a business model per product line (direct B2B sales plus commission-only local promoters for the firewood alternative, custom projects for the mouldable material, ingredient wholesaling, bulk feed, municipal energy contracts, co-development with architects for the panels).", "A marketing strategy with sample kits, pitch decks per line, QR-coded feedback and a PR plan around circular-economy and green-building events.", "A market analysis and opportunity map for France, Belgium and the Netherlands, with a 12 to 24 month roadmap and the clusters and incentives to align with.", "The French homepage copy and a website audit, and the job posting for the first commercial hire in Paris and Île-de-France."], "result": "A sequence of markets and a first sales channel, instead of six products looking for buyers at once.", "proof": [["6", "product lines"], ["3", "markets mapped"], ["24", "month roadmap"]]}, {"id": "lsn", "pillar": "build", "num": "4", "unit": "annexes", "numcap": "Manhattan partnerships mapped", "who": "A Manhattan luxury-stays operator", "where": "New York · August to November 2024", "h": "Fewer platform bookings, more of their own", "tags": ["Build", "Hospitality", "Analysis · strategy · website · partnerships · brand voice"], "problem": "A luxury short-term-rental operator in Manhattan with premium apartments, a reputation for service, and most of its bookings coming through Airbnb and Booking.com, at platform margins and on platform terms. The owners wanted more direct bookings, a larger managed portfolio, corporate contracts, and a brand that could carry all three.", "did": ["An initial analysis of the business and a website analysis: booking flow, pricing transparency, how the apartments were shown.", "A strategic development plan: short-term, direct bookings through an upgraded website, refined guest services and targeted campaigns; longer-term, more properties, more owners listing with the company, corporate contracts.", "Four annexes: the corporate partnership categories in Manhattan, partnerships and affiliations, a roadmap for relocation agencies and corporates in the fast-moving industries, and the brand identity and tone of voice."], "result": "A direct-booking strategy and a named list of the Manhattan partners who could feed it, in place of a dependence on two platforms.", "proof": [["4", "annexes"], ["1", "direct-booking plan"], ["2", "partner routes"]]}, {"id": "hos", "pillar": "build", "num": "96", "unit": "hours", "numcap": "the whole funnel, four months", "who": "A hospital-engineering technology firm", "where": "April to August 2024", "h": "The whole funnel in four months", "tags": ["Build", "Engineering technology", "Segments · positioning · channel plan · outreach · pipeline"], "problem": "Innovative engineering technology for hospital building design, sold to healthcare developers and design teams, with a long technical sales cycle and no marketing function at all: no defined segments, no messaging, no outreach, no pipeline structure.", "did": ["Ideal-client and segment definition across developers, design teams and operators.", "Positioning and messaging, a channel plan, outreach sequences and a pipeline structure, with the materials to run it.", "Ninety-six hours over four months, embedded with the founder, so the firm could run the funnel itself afterwards."], "result": "A complete marketing funnel and business-development plan, rated five stars by the client.", "proof": [["96", "hours"], ["4", "months"], ["5", "stars"]]}, {"id": "coach", "pillar": "build", "num": "5", "unit": "launches", "numcap": "coaches and educators, one machine each", "who": "Coaching and education brands", "where": "USA and online · 2024 to 2026", "h": "Launches that had to sell on day one", "tags": ["Build", "Coaching and education", "Offers · funnels · webinars · lead magnets · websites"], "problem": "Coaches and educators with something to sell and no machine to sell it: a teen life-skills academy with three programmes and no pricing; a salary-negotiation coach; a marketing coach; an influencer with an audience and no business plan.", "did": ["For the teen academy: a marketing analysis against the competing programmes, a three-tier package and pricing, website text, a 60-minute parents' masterclass as the lead magnet, a Kajabi landing page, email campaigns, LinkedIn and paid-ads plan with a USD 10,000 test budget, and an application test for the children.", "For the coaches: personas, an Instagram DM-trigger funnel and email sequences for the salary-negotiation coach; a full marketing plan, delivered over four weeks, for the marketing coach; a 40-page influencer business plan with stages of implementation; website rebrands and copy for three more coaching brands."], "result": "Offers, funnels and launch plans that sold from the first week, with five-star reviews across the board.", "proof": [["5", "launches"], ["40", "page business plan"], ["5", "stars, every review"]], "quote": ["Giulia was everything I hoped she would be. She was the perfect hire. She is extremely knowledgeable on marketing, she cranked out a massive amount of work for me (over-delivered), and made herself super available. I felt very much like she was part of my business.", "Marketing coach, USA"]}, {"id": "eh", "pillar": "grow", "num": "30", "unit": "%", "numcap": "of growth from new markets", "who": "Ector Hoogstad Architecten", "where": "Rotterdam · as Business Development Director for Europe", "h": "A French-speaking division from zero", "tags": ["Grow", "Architecture", "International business development · tenders · competitions"], "problem": "A Dutch practice with strong home work and no international department: no pipeline abroad, no French-speaking capacity, no process for the tenders and competitions through which French public clients commission buildings.", "did": ["Built the international business-development department from nothing, then a French-speaking division within it.", "Ran the French tenders and competitions end to end, from the public-procurement calendar to the technical memoir and the BIM chapter, including the market halls competition in Toulouse and the La Rochelle competition.", "Built the partner network of French engineers and specialists the practice needed to be eligible at all."], "result": "New markets delivered about 30% of the firm's growth. It is where the Fearless Horizons method comes from: a pipeline is built, not waited for.", "proof": [["30%", "of growth"], ["1", "new division"], ["2", "countries opened"]]}];
+var SCENES={"td": "<div class=\"w-bg w-grad\" style=\"--g1:#1B1340;--g2:#0E1326\"></div><div class=\"w-el w-lap\" style=\"left:36%;top:10%;width:52%;--r:-1deg\"><div class=\"w-scr\"><div class=\"w-slides\"><img src=\"assets/work/td-home.jpg\" alt=\"\" class=\"on\"><img src=\"assets/work/td-features.jpg\" alt=\"\" class=\"\"></div></div><div class=\"w-base\"></div></div><div class=\"w-el w-doc\" style=\"left:82%;top:12%;width:15%;--r:7deg\"><div class=\"w-dt\"><b>Brief analyser</b>Upload the brief<span>Translation \u00b7 requirements \u00b7 strategy</span></div></div><div class=\"w-cp\" style=\"left:30%;bottom:22%\"><b>6 modules</b>feed \u00b7 team \u00b7 documents \u00b7 AI brief \u00b7 studio \u00b7 pipeline</div>", "rrp": "<div class=\"w-bg w-grad\" style=\"--g1:#14264A;--g2:#0B1430\"></div><div class=\"w-xls\" style=\"left:4%;bottom:18%;width:30%\"><table><tr><td>Agency</td><td>Roll</td><td>Score</td></tr><tr><td>Harbourside PM</td><td class=\"n\">412</td><td class=\"n\">69</td></tr><tr><td>Bayside Realty</td><td class=\"n\">288</td><td class=\"n\">74</td></tr><tr><td>Stone RE</td><td class=\"n\">1,040</td><td class=\"n\">58</td></tr><tr><td>Baber &amp; Co</td><td class=\"n\">196</td><td class=\"n\">81</td></tr></table></div>\n<div class=\"w-cp up\" style=\"left:36%;bottom:22%\"><b>\u2192</b>spreadsheet to app</div><div class=\"w-el w-lap\" style=\"left:40%;top:12%;width:56%;--r:-1deg\"><div class=\"w-scr\"><div class=\"w-slides\"><img src=\"assets/work/rrp-dash.jpg\" alt=\"\" class=\"on\"><img src=\"assets/work/site-rrp.jpg\" alt=\"\" class=\"\"><img src=\"assets/work/site-rrp-score.jpg\" alt=\"\" class=\"\"></div></div><div class=\"w-base\"></div></div><div class=\"w-el w-phone\" style=\"left:66%;top:34%;width:15%;--r:5deg\"><img src=\"assets/work/rrp-showbag.jpg\" alt=\"\"></div>\n", "sus": "<div class=\"w-bg\"><img src=\"assets/work/bg-sus1.jpg\" alt=\"\" style=\"object-position:center 30%\"><i style=\"--d:0.6\"></i></div><div class=\"w-el w-lap\" style=\"left:43%;top:14%;width:54%;--r:-2deg\"><div class=\"w-scr\"><div class=\"w-slides\"><img src=\"assets/work/chart-sus2.jpg\" alt=\"\" class=\"on\"><img src=\"assets/work/site-sus2.jpg\" alt=\"\" class=\"\"></div></div><div class=\"w-base\"></div></div><div class=\"w-el\" style=\"left:34%;top:50%;width:32%;--r:3deg\"><img src=\"assets/work/prof-waseem.jpg\" alt=\"\"></div><div class=\"w-el\" style=\"left:70%;top:60%;width:26%;--r:-4deg\"><img src=\"assets/work/sus-card.jpg\" alt=\"\"></div>\n<div class=\"w-cp up\" style=\"right:4%;top:50%\"><b>\u25b2 5,507%</b>impressions in 90 days</div>", "hec": "<div class=\"w-bg\"><img src=\"assets/work/bg-hec.jpg\" alt=\"\" style=\"object-position:35% center\"><i style=\"--d:0.4\"></i></div><div class=\"w-el w-doc\" style=\"left:57%;top:10%;width:19%;--r:-7deg\"><img src=\"assets/work/hec-post1.jpg\" alt=\"\"></div><div class=\"w-el w-doc\" style=\"left:69%;top:7%;width:19%;--r:-1deg\"><img src=\"assets/work/hec-post2.jpg\" alt=\"\"></div><div class=\"w-el w-doc\" style=\"left:80%;top:11%;width:19%;--r:6deg\"><img src=\"assets/work/hec-post3.jpg\" alt=\"\"></div>\n<div class=\"w-cp\" style=\"left:44%;bottom:22%\"><b>247</b>public endorsements</div><div class=\"w-cp dark\" style=\"right:4%;bottom:26%\"><b>FR \u00b7 EN</b>24+ posts, seven countries</div>", "uns": "<div class=\"w-bg\"><img src=\"assets/work/bg-uns1.jpg\" alt=\"\" style=\"object-position:center\"><i style=\"--d:0.45\"></i></div><div class=\"w-el\" style=\"left:40%;top:14%;width:30%;--r:-3deg\"><img src=\"assets/work/bg-uns2.jpg\" alt=\"\"></div><div class=\"w-el\" style=\"left:64%;top:22%;width:32%;--r:3deg\"><img src=\"assets/work/bg-uns3.jpg\" alt=\"\"></div><div class=\"w-el w-doc\" style=\"left:50%;top:44%;width:20%;--r:-4deg\"><img src=\"assets/work/uns-doc.jpg\" alt=\"\"></div>\n<div class=\"w-cp\" style=\"right:4%;bottom:24%\"><b>Amsterdam \u2192 Paris</b>six workstreams, one team</div>", "hox": "<div class=\"w-bg\"><img src=\"assets/work/bg-hoxton.jpg\" alt=\"\" style=\"object-position:center\"><i style=\"--d:0.5\"></i></div><div class=\"w-el\" style=\"left:44%;top:12%;width:22%;aspect-ratio:4/5;--r:-6deg\"><img src=\"assets/work/hox1.jpg\" alt=\"\"></div><div class=\"w-el\" style=\"left:62%;top:9%;width:22%;aspect-ratio:4/5;--r:1deg\"><img src=\"assets/work/hox3.jpg\" alt=\"\"></div><div class=\"w-el\" style=\"left:76%;top:30%;width:20%;aspect-ratio:4/5;--r:7deg\"><img src=\"assets/work/bg-hoxton2.jpg\" alt=\"\"></div>\n<div class=\"w-cp\" style=\"left:44%;bottom:22%\"><b>3 months</b>to 80% occupancy</div>", "ser": "<div class=\"w-bg\"><img src=\"assets/work/site-serhant.jpg\" alt=\"\" style=\"object-position:center top\"><i style=\"--d:0.6\"></i></div><div class=\"w-el w-lap\" style=\"left:38%;top:14%;width:56%;--r:-2deg\"><div class=\"w-scr\"><div class=\"w-slides\"><img src=\"assets/work/site-serhant.jpg\" alt=\"\" class=\"on\"><img src=\"assets/work/prof-serhant.jpg\" alt=\"\" class=\"\"></div></div><div class=\"w-base\"></div></div><div class=\"w-el\" style=\"left:34%;top:56%;width:30%;--r:3deg\"><img src=\"assets/work/prof-serhant.jpg\" alt=\"\"></div><div class=\"w-cp up\" style=\"right:4%;bottom:22%\"><b>+50%</b>enrolments in 3 months</div>", "hout": "<div class=\"w-bg w-globe\"><canvas></canvas></div><div class=\"w-el w-doc\" style=\"left:60%;top:16%;width:22%;--r:-4deg\"><img src=\"assets/work/hout-doc.jpg\" alt=\"\"></div><div class=\"w-el w-doc\" style=\"left:78%;top:26%;width:19%;--r:8deg\"><img src=\"assets/work/hout-table.jpg\" alt=\"\"></div>\n<div class=\"w-cp\" style=\"left:40%;bottom:22%\"><b>6 lenses</b>demand, money, access, competition, language, risk</div>", "dac": "<div class=\"w-bg\"><img src=\"assets/work/bg-fair3.jpg\" alt=\"\" style=\"object-position:center 60%\"><i style=\"--d:0.6\"></i></div><div class=\"w-el w-lap\" style=\"left:40%;top:12%;width:56%;--r:-2deg\"><div class=\"w-scr\"><div class=\"w-slides\"><img src=\"assets/work/dac-hub.jpg\" alt=\"\" class=\"on\"><img src=\"assets/work/dac-partners.jpg\" alt=\"\" class=\"\"><img src=\"assets/work/dac-pitch.jpg\" alt=\"\" class=\"\"></div></div><div class=\"w-base\"></div></div><div class=\"w-el\" style=\"left:34%;top:52%;width:34%;--r:3deg\"><img src=\"assets/work/dac-matrix.jpg\" alt=\"\"></div>\n<div class=\"w-cp\" style=\"right:4%;bottom:22%\"><b>112 \u2192 83</b>portfolio pages to tagged projects</div>", "oda": "<div class=\"w-bg\"><img src=\"assets/work/bg-fair1.jpg\" alt=\"\" style=\"object-position:center 55%\"><i style=\"--d:0.6\"></i></div><div class=\"w-el w-doc\" style=\"left:42%;top:14%;width:20%;--r:-6deg\"><div class=\"w-dt\"><b>Meeting plan</b>Cannes \u00b7 three days<span>Developers \u00b7 investors \u00b7 operators</span></div></div><div class=\"w-el w-doc\" style=\"left:58%;top:10%;width:20%;--r:1deg\"><div class=\"w-dt\"><b>Pitch for Europe</b>Portfolio selection<span>Residential \u00b7 mixed-use \u00b7 hospitality</span></div></div><div class=\"w-el w-doc\" style=\"left:74%;top:14%;width:20%;--r:7deg\"><div class=\"w-dt\"><b>Follow-up report</b>Every conversation<span>Next step per contact</span></div></div><div class=\"w-cp dark\" style=\"right:4%;bottom:22%\"><b>ODA</b>represented in person</div>", "dhi": "<div class=\"w-bg\"><img src=\"assets/work/bg-fair2.jpg\" alt=\"\" style=\"object-position:center 40%\"><i style=\"--d:0.6\"></i></div><div class=\"w-el\" style=\"left:46%;top:16%;width:50%;--r:-2deg\"><img src=\"assets/work/dhi-targets.jpg\" alt=\"\"></div><div class=\"w-el w-doc\" style=\"left:74%;top:32%;width:22%;--r:6deg\"><img src=\"assets/work/dhi-playbook.jpg\" alt=\"\"></div>\n<div class=\"w-cp dark\" style=\"left:40%;bottom:30%\"><b>PROVADA</b>Amsterdam, 3 days</div><div class=\"w-cp\" style=\"right:4%;bottom:22%\"><b>EN \u00b7 NL</b>every message personalised</div>", "thx": "<div class=\"w-bg\"><img src=\"assets/work/bg-thx.jpg\" alt=\"\" style=\"object-position:center\"><i style=\"--d:0.55\"></i></div><div class=\"w-el w-lap\" style=\"left:38%;top:12%;width:56%;--r:-2deg\"><div class=\"w-scr\"><div class=\"w-slides\"><img src=\"assets/work/site-thermenex.jpg\" alt=\"\" class=\"on\"><img src=\"assets/work/thx-brochure.jpg\" alt=\"\" class=\"\"><img src=\"assets/work/thx-12.jpg\" alt=\"\" class=\"\"><img src=\"assets/work/site-thermenex2.jpg\" alt=\"\" class=\"\"></div></div><div class=\"w-base\"></div></div><div class=\"w-el w-doc\" style=\"left:36%;top:52%;width:17%;--r:-6deg\"><img src=\"assets/work/thx-12.jpg\" alt=\"\"></div><div class=\"w-cp\" style=\"right:4%;bottom:22%\"><b>9</b>project pages, one call to action</div>", "brg": "<div class=\"w-bg w-grad\" style=\"--g1:#1E2A4A;--g2:#0E1326\"></div><div class=\"w-el w-lap\" style=\"left:40%;top:12%;width:54%;--r:-2deg\"><div class=\"w-scr\"><div class=\"w-slides\"><img src=\"assets/work/site-bearings.jpg\" alt=\"\" class=\"on\"><img src=\"assets/work/brg-doc.jpg\" alt=\"\" class=\"\"></div></div><div class=\"w-base\"></div></div><div class=\"w-pcard\" style=\"left:34%;top:52%;--r:-3deg\"><i></i><em>EG</em><b>CEO &amp; Founder, development company</b><span>2,500+ locations \u00b7 $1B+ transactions \u00b7 28 states</span></div>\n<div class=\"w-cp\" style=\"right:4%;bottom:22%\"><b>4 pages</b>lender-facing track record</div>", "ico": "<div class=\"w-bg w-grad\" style=\"--g1:#163A2E;--g2:#0E1326\"></div><div class=\"w-el w-doc\" style=\"left:40%;top:12%;width:22%;--r:-6deg\"><img src=\"assets/work/ico-doc.jpg\" alt=\"\"></div><div class=\"w-el w-doc\" style=\"left:60%;top:16%;width:22%;--r:2deg\"><img src=\"assets/work/ico-market.jpg\" alt=\"\"></div>\n<div class=\"w-cp dark\" style=\"right:4%;top:24%\"><b>FR \u00b7 BE \u00b7 NL</b>opportunity map</div><div class=\"w-cp\" style=\"left:40%;bottom:22%\"><b>6 product lines</b>one business model each</div>", "lsn": "<div class=\"w-bg w-grad\" style=\"--g1:#2A1E3C;--g2:#0E1326\"></div><div class=\"w-el w-doc\" style=\"left:38%;top:12%;width:22%;--r:-7deg\"><img src=\"assets/work/lsn1.jpg\" alt=\"\"></div><div class=\"w-el w-doc\" style=\"left:56%;top:10%;width:22%;--r:-1deg\"><img src=\"assets/work/lsn2.jpg\" alt=\"\"></div><div class=\"w-el w-doc\" style=\"left:74%;top:14%;width:22%;--r:6deg\"><img src=\"assets/work/lsn3.jpg\" alt=\"\"></div>\n<div class=\"w-cp\" style=\"left:38%;bottom:22%\"><b>Direct</b>bookings over platforms</div><div class=\"w-cp dark\" style=\"right:4%;bottom:30%\"><b>Manhattan</b>corporate partners</div>", "hos": "<div class=\"w-bg w-grad\" style=\"--g1:#1B2550;--g2:#0E1326\"></div><div class=\"w-funnel\" style=\"left:40%;top:14%\"><div style=\"width:100%\">Healthcare developers <span>segment</span></div><div style=\"width:88%\">Design teams <span>message</span></div><div style=\"width:74%\">Outreach sequence <span>channel</span></div><div style=\"width:60%\">Meeting <span>pipeline</span></div><div style=\"width:46%\">Project <span>won</span></div></div>\n<div class=\"w-ring\" style=\"left:72%;top:46%;--v:83%\"><b>5.0</b></div><div class=\"w-cp\" style=\"left:40%;bottom:22%\"><b>4 months</b>funnel + BD plan</div>", "coach": "<div class=\"w-bg\"><img src=\"assets/work/bg-event1.jpg\" alt=\"\" style=\"object-position:center 30%\"><i style=\"--d:0.55\"></i></div><div class=\"w-el w-lap\" style=\"left:38%;top:12%;width:56%;--r:-2deg\"><div class=\"w-scr\"><div class=\"w-slides\"><img src=\"assets/work/site-sot.jpg\" alt=\"\" class=\"on\"><img src=\"assets/work/site-coachklara.jpg\" alt=\"\" class=\"\"><img src=\"assets/work/site-shetribing.jpg\" alt=\"\" class=\"\"><img src=\"assets/work/site-lehype.jpg\" alt=\"\" class=\"\"></div></div><div class=\"w-base\"></div></div><div class=\"w-el\" style=\"left:34%;top:54%;width:30%;--r:3deg\"><img src=\"assets/work/prof-cecile.jpg\" alt=\"\"></div><div class=\"w-cp\" style=\"right:4%;bottom:22%\"><b>USD 10k</b>ad test, run and reported</div>", "eh": "<div class=\"w-bg\"><img src=\"assets/work/bg-fair1.jpg\" alt=\"\" style=\"object-position:center 60%\"><i style=\"--d:0.6\"></i></div><div class=\"w-el w-doc\" style=\"left:40%;top:14%;width:20%;--r:-6deg\"><div class=\"w-dt\"><b>Halles de Lacot\u00e8re</b>Toulouse \u00b7 concours 2018<span>M\u00e9moire technique \u00b7 BIM \u00b7 FR</span></div></div><div class=\"w-el w-doc\" style=\"left:56%;top:10%;width:20%;--r:1deg\"><div class=\"w-dt\"><b>La Rochelle</b>Concours 2019<span>Notice technique &amp; environnementale</span></div></div><div class=\"w-el w-doc\" style=\"left:72%;top:14%;width:20%;--r:7deg\"><div class=\"w-dt\"><b>Division francophone</b>Rotterdam \u2192 France, Belgique<span>Pipeline, partenaires, PR</span></div></div>\n<div class=\"w-cp\" style=\"left:46%;bottom:22%\"><b>~30%</b>of growth from new markets</div>"}, PHOTO=["brg", "coach", "dac", "dhi", "eh", "hec", "hos", "hout", "hox", "ico", "lsn", "oda", "rrp", "ser", "sus", "td", "thx", "uns"];
+var grid=document.getElementById('wgrid');
+function card(c){var b=document.createElement('button');b.className='w-case p-'+c.pillar+(c.wide?' wide':'');b.dataset.p=c.pillar;b.dataset.id=c.id;
+  b.innerHTML='<div class="w-cover'+(PHOTO.indexOf(c.id)>-1?' photo':'')+'"><div class="w-sc">'+(SCENES[c.id]||'')+'</div><div class="w-num">'+c.num+'<small>'+c.unit+'</small><span>'+c.numcap+'</span></div><div class="w-who"><div><b>'+c.who+'</b><span>'+c.where+'</span></div><span class="w-pill">'+c.pillar+'</span></div></div><div class="w-meta"><h3>'+c.h+'</h3><div class="w-tags"><b>'+c.tags[1]+'</b> · '+c.tags[2]+'</div></div>';
+  b.addEventListener('click',function(){open(c.id)});return b}
+CASES.forEach(function(c){grid.appendChild(card(c))});
+document.querySelectorAll('.w-chip').forEach(function(ch){ch.addEventListener('click',function(){document.querySelectorAll('.w-chip').forEach(function(x){x.classList.toggle('on',x===ch)});var f=ch.dataset.f;grid.querySelectorAll('.w-case').forEach(function(el){el.classList.toggle('hidden',f!=='all'&&el.dataset.p!==f)})})});
+/* laptop slideshows */
+function cycle(root,ms){var imgs=root.querySelectorAll('.w-slides img');if(imgs.length<2)return;var i=0;setInterval(function(){imgs[i].classList.remove('on');i=(i+1)%imgs.length;imgs[i].classList.add('on')},ms)}
+document.querySelectorAll('.w-case .w-lap').forEach(function(l,k){setTimeout(function(){cycle(l,3200+k*400)},k*700)});
+/* globe */
+(function(){var cv=document.querySelector('.w-globe canvas');if(!cv)return;var ctx=cv.getContext('2d');var pts=[];for(var i=0;i<900;i++){var y=1-(i/899)*2,r=Math.sqrt(1-y*y),t=i*2.399963;pts.push([Math.cos(t)*r,y,Math.sin(t)*r])}
+ var hot=[[52,13],[45,9],[41,-8],[50,20],[48,2],[42,19],[33,36],[24,90],[21,106],[43,-79]].map(function(a){var la=a[0]*Math.PI/180,lo=a[1]*Math.PI/180;return [Math.cos(la)*Math.cos(lo),Math.sin(la),Math.cos(la)*Math.sin(lo)]});
+ var a=0,red=matchMedia('(prefers-reduced-motion: reduce)').matches;function draw(){var W=cv.clientWidth,H=cv.clientHeight;if(cv.width!==W*2){cv.width=W*2;cv.height=H*2}ctx.setTransform(2,0,0,2,0,0);ctx.clearRect(0,0,W,H);var R=Math.min(W,H)*.42,cx=W/2,cy=H/2;
+  function rot(p){var x=p[0]*Math.cos(a)-p[2]*Math.sin(a),z=p[0]*Math.sin(a)+p[2]*Math.cos(a);return [x,p[1],z]}
+  pts.forEach(function(p){var q=rot(p);if(q[2]<0)return;ctx.fillStyle='rgba(201,181,255,'+(0.25+0.55*q[2])+')';ctx.beginPath();ctx.arc(cx+q[0]*R,cy-q[1]*R,1.1+q[2],0,6.283);ctx.fill()});
+  hot.forEach(function(p){var q=rot(p);if(q[2]<0)return;ctx.fillStyle='#FF8AB8';ctx.beginPath();ctx.arc(cx+q[0]*R,cy-q[1]*R,3.5,0,6.283);ctx.fill();ctx.strokeStyle='rgba(255,138,184,.45)';ctx.lineWidth=1.5;ctx.beginPath();ctx.arc(cx+q[0]*R,cy-q[1]*R,8,0,6.283);ctx.stroke()});
+  ctx.strokeStyle='rgba(201,181,255,.2)';ctx.lineWidth=1;ctx.beginPath();ctx.arc(cx,cy,R,0,6.283);ctx.stroke();
+  if(!red)a+=0.004;requestAnimationFrame(draw)}draw()})();
+/* panel */
+var panel=document.getElementById('wpanel'),scrim=document.getElementById('wscrim');
+function open(id){var c=CASES.filter(function(x){return x.id===id})[0];var i=CASES.indexOf(c);var n=CASES[(i+1)%CASES.length];var sc=SCENES[c.id]||'';var m=sc.match(/<div class="w-bg">.*?<\/div>/);var bg=m?m[0]:'';
+  panel.innerHTML='<div class="w-ph p-'+c.pillar+(bg?'':' plain')+'">'+bg+'<button class="w-close" aria-label="Close">×</button><span class="w-pill">'+c.pillar+'</span><h2>'+c.h+'</h2><p>'+c.who+' · '+c.where+'</p></div><div class="w-body"><div class="w-sec"><div class="k"><b>01</b>The problem</div><p>'+c.problem+'</p></div><div class="w-sec"><div class="k"><b>02</b>What we did</div><ul>'+c.did.map(function(d){return '<li>'+d+'</li>'}).join('')+'</ul></div><div class="w-sec"><div class="k"><b>03</b>The result</div><p>'+c.result+'</p></div><div class="w-proof">'+c.proof.map(function(p){return '<div><b>'+p[0]+'</b><span>'+p[1]+'</span></div>'}).join('')+'</div>'+(c.quote?'<div class="w-quote">“'+c.quote[0]+'”<small>'+c.quote[1]+'</small></div>':'')+'<div class="w-next"><small>'+c.tags.join(' · ')+'</small><button data-next="'+n.id+'">Next: '+n.h+' →</button></div></div>';
+  panel.classList.add('on');scrim.classList.add('on');panel.setAttribute('aria-hidden','false');panel.scrollTop=0;document.body.style.overflow='hidden';
+  panel.querySelector('.w-close').onclick=close;panel.querySelector('[data-next]').onclick=function(e){open(e.target.dataset.next)}}
+function close(){panel.classList.remove('on');scrim.classList.remove('on');panel.setAttribute('aria-hidden','true');document.body.style.overflow=''}
+scrim.addEventListener('click',close);document.addEventListener('keydown',function(e){if(e.key==='Escape')close()});
+/* websites showcase */
+var show=document.getElementById('wshow'),imgs=show.querySelectorAll('.w-slides img'),btns=document.querySelectorAll('.w-list button'),cur=0,timer;
+function go(i){imgs[cur].classList.remove('on');btns[cur].classList.remove('on');cur=i;imgs[cur].classList.add('on');btns[cur].classList.add('on')}
+function auto(){clearInterval(timer);timer=setInterval(function(){go((cur+1)%imgs.length)},3000)}
+btns.forEach(function(b,i){b.addEventListener('click',function(){go(i);auto()})});auto();
+})();
+</script>
+<section class="cta">
+  <div class="wrap">
+    <p class="eyebrow grad">Start something</p>
+    <h2>Ready to build, launch <em>or grow?</em></h2>
+    <p>Book a call. No deck, no pitch. An honest read on what you need next and whether I am the right person to do it.</p>
+    <div class="ctas"><a class="btn primary" href="start.html">Book a 30-minute call</a><a class="btn ghost" href="work.html">See the work</a></div>
+    <p class="mail">info@fearlesshorizons.com</p>
+  </div>
+</section>
+<footer>
+  <div class="wrap">
+    <div><span class="brand">FEARLESS <span>HORIZONS</span></span><br><span>Products, brands and pipelines for proptech, real estate, architecture, engineering, hospitality and events. One senior partner from first idea to first clients, at home or in a new market.</span><br><span>Lisbon · Paris</span></div>
+    <ul>
+      <li><a href="build.html">Build</a></li><li><a href="launch.html">Launch</a></li><li><a href="grow.html">Grow</a></li><li><a href="work.html">Work</a></li><li><a href="about.html">About Giulia</a></li><li><a href="start.html">Start</a></li><li><a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7434215012086263808">Newsletter</a></li>
+    </ul>
+    <div>© 2026 Fearless Horizons · <a href="privacy.html">Privacy</a></div>
+  </div>
+</footer>
+<script>(function(){var n=document.querySelector('nav'),b=document.getElementById('menu');if(!b)return;b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');});n.querySelectorAll('ul a').forEach(function(a){a.addEventListener('click',function(){n.classList.remove('open');});});})();</script></body></html>

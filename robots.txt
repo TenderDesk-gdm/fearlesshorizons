@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fearlesshorizons.com/sitemap.xml
