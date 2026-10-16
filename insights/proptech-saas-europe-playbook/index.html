@@ -664,4 +664,11 @@ nav ul li.m{display:none}
     <div>© 2026 Fearless Horizons · <a href="privacy.html">Privacy</a></div>
   </div>
 </footer>
-<script>(function(){var n=document.querySelector('nav'),b=document.getElementById('menu');if(!b)return;b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');});n.querySelectorAll('ul a').forEach(function(a){a.addEventListener('click',function(){n.classList.remove('open');});});})();</script></body></html>
+<script>(function(){var n=document.querySelector('nav'),b=document.getElementById('menu');if(!b)return;b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');});n.querySelectorAll('ul a').forEach(function(a){a.addEventListener('click',function(){n.classList.remove('open');});});})();</script><div id="ck" role="dialog" aria-label="Cookies" style="display:none;position:fixed;left:16px;bottom:16px;z-index:80;max-width:380px;background:#0E1326;color:#e8ebf7;border:1px solid rgba(255,255,255,.14);border-radius:16px;padding:16px 18px;box-shadow:0 20px 50px rgba(0,0,0,.35);font:14px/1.5 Inter,system-ui,sans-serif">
+<p style="margin:0 0 12px">We use one analytics cookie (Google Analytics) to see which pages help people. Nothing is tracked unless you accept. <a href="/privacy.html" style="color:#b9a8ff">Privacy</a></p>
+<div style="display:flex;gap:8px"><button id="ckY" style="cursor:pointer;border:0;border-radius:999px;padding:9px 16px;background:#fff;color:#0E1326;font-weight:600">Accept</button><button id="ckN" style="cursor:pointer;border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:9px 16px;background:transparent;color:#e8ebf7">Decline</button></div></div>
+<script>(function(){var K='fh-consent',v=null;try{v=localStorage.getItem(K)}catch(e){}
+function ga(){if(window.__ga)return;window.__ga=1;var s=document.createElement('script');s.async=1;s.src='https://www.googletagmanager.com/gtag/js?id=G-N116FM67ZZ';document.head.appendChild(s);window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config','G-N116FM67ZZ',{anonymize_ip:true});}
+var b=document.getElementById('ck');if(v==='yes'){ga();return}if(v==='no')return;b.style.display='block';
+document.getElementById('ckY').onclick=function(){try{localStorage.setItem(K,'yes')}catch(e){}b.remove();ga()};
+document.getElementById('ckN').onclick=function(){try{localStorage.setItem(K,'no')}catch(e){}b.remove()};})();</script></body></html>
